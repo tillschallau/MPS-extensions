@@ -11,6 +11,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -221,12 +224,12 @@
     <node concept="1TJgyi" id="KgMRc3B9fO" role="1TKVEl">
       <property role="IQ2nx" value="869418422924776436" />
       <property role="TrG5h" value="x" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="Double" />
     </node>
     <node concept="1TJgyi" id="KgMRc3B9fT" role="1TKVEl">
       <property role="IQ2nx" value="869418422924776441" />
       <property role="TrG5h" value="y" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="Double" />
     </node>
   </node>
   <node concept="1TIwiD" id="KgMRc3B9hO">
@@ -236,13 +239,17 @@
     <node concept="1TJgyi" id="KgMRc3B9hP" role="1TKVEl">
       <property role="IQ2nx" value="869418422924776565" />
       <property role="TrG5h" value="width" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="Double" />
     </node>
     <node concept="1TJgyi" id="KgMRc3B9hU" role="1TKVEl">
       <property role="IQ2nx" value="869418422924776570" />
       <property role="TrG5h" value="height" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="Double" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="gc$lTUB">
+    <property role="TrG5h" value="Double" />
+    <property role="FLfZY" value="-?[0-9]+(\\.[0-9]*([Ee][\\+\\-]?[0-9]+)?[dD]?)?" />
   </node>
 </model>
 

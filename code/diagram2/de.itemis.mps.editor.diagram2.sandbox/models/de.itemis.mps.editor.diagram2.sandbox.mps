@@ -32,10 +32,14 @@
       </concept>
       <concept id="869418422924776090" name="de.itemis.mps.editor.diagram2.model.structure.mxGeometry" flags="ng" index="fz5BD">
         <property id="869418422924776523" name="relative" index="fz5WS" />
+        <child id="869418422924776514" name="points" index="fz5WL" />
       </concept>
       <concept id="869418422924776564" name="de.itemis.mps.editor.diagram2.model.structure.mxRectangle" flags="ng" index="fz5W7">
         <property id="869418422924776565" name="width" index="fz5W6" />
         <property id="869418422924776570" name="height" index="fz5W9" />
+      </concept>
+      <concept id="869418422924776558" name="de.itemis.mps.editor.diagram2.model.structure.PointsList" flags="ng" index="fz5Wt">
+        <child id="869418422924776559" name="points" index="fz5Ws" />
       </concept>
       <concept id="869418422924776579" name="de.itemis.mps.editor.diagram2.model.structure.mxGraph" flags="ng" index="fz5ZK">
         <child id="869418422924776580" name="model" index="fz5ZR" />
@@ -72,10 +76,10 @@
                 <property role="fz5z6" value="Hello" />
               </node>
               <node concept="fz5BD" id="KgMRc3Bjxu" role="fz5BC">
-                <property role="fz5W9" value="30.0" />
-                <property role="fz5W6" value="80.0" />
-                <property role="fz5y7" value="20.0" />
-                <property role="fz5ya" value="20.0" />
+                <property role="fz5W9" value="30" />
+                <property role="fz5W6" value="80" />
+                <property role="fz5y7" value="20" />
+                <property role="fz5ya" value="20" />
               </node>
             </node>
             <node concept="fz5_c" id="KgMRc3Bjxc" role="fz5xS">
@@ -88,10 +92,10 @@
                 <property role="fz5z6" value="World!" />
               </node>
               <node concept="fz5BD" id="KgMRc3Bjxz" role="fz5BC">
-                <property role="fz5W6" value="80.0" />
-                <property role="fz5W9" value="30.0" />
-                <property role="fz5y7" value="240.0" />
-                <property role="fz5ya" value="150.0" />
+                <property role="fz5W6" value="80" />
+                <property role="fz5W9" value="30" />
+                <property role="fz5y7" value="240" />
+                <property role="fz5ya" value="150" />
               </node>
             </node>
             <node concept="fz5_c" id="KgMRc3BjTX" role="fz5xS">
@@ -104,6 +108,16 @@
               <ref role="fz5Bq" node="KgMRc3Bjxc" />
               <node concept="fz5BD" id="KgMRc3BjUq" role="fz5BC">
                 <property role="fz5WS" value="true" />
+                <node concept="fz5Wt" id="1apE37R6dhH" role="fz5WL">
+                  <node concept="fz5y0" id="1apE37R6dhM" role="fz5Ws">
+                    <property role="fz5y7" value="100" />
+                    <property role="fz5ya" value="100" />
+                  </node>
+                  <node concept="fz5y0" id="1apE37R6U5s" role="fz5Ws">
+                    <property role="fz5y7" value="100" />
+                    <property role="fz5ya" value="160" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

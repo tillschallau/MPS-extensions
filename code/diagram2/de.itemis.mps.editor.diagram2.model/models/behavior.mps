@@ -423,7 +423,7 @@
     </node>
   </node>
   <node concept="312cEu" id="68yDfOBMfKB">
-    <property role="TrG5h" value="GraphSynchronizer" />
+    <property role="TrG5h" value="GraphLoader" />
     <node concept="2tJIrI" id="68yDfOBMfL1" role="jymVt" />
     <node concept="312cEg" id="68yDfOC24ru" role="jymVt">
       <property role="TrG5h" value="node2Cell" />
@@ -3161,7 +3161,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="68yDfOBPe$w" role="jymVt" />
-    <node concept="2tJIrI" id="68yDfOBMfOq" role="jymVt" />
     <node concept="3clFb_" id="68yDfOBOmli" role="jymVt">
       <property role="TrG5h" value="writeIfDifferent" />
       <node concept="37vLTG" id="68yDfOBOnFg" role="3clF46">
@@ -3219,42 +3218,11 @@
         <property role="TrG5h" value="T" />
       </node>
     </node>
-    <node concept="2tJIrI" id="68yDfOBNOed" role="jymVt" />
-    <node concept="2tJIrI" id="68yDfOBNOg2" role="jymVt" />
-    <node concept="3clFb_" id="68yDfOBMfPu" role="jymVt">
-      <property role="TrG5h" value="saveGraph" />
-      <node concept="37vLTG" id="68yDfOBMg1I" role="3clF46">
-        <property role="TrG5h" value="source" />
-        <node concept="3uibUv" id="68yDfOBMg28" role="1tU5fm">
-          <ref role="3uigEE" to="1njx:~mxGraph" resolve="mxGraph" />
-        </node>
-        <node concept="2AHcQZ" id="68yDfOBMgjw" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="68yDfOBMgoO" role="3clF46">
-        <property role="TrG5h" value="target" />
-        <node concept="3Tqbb2" id="68yDfOBMgpr" role="1tU5fm" />
-        <node concept="2AHcQZ" id="68yDfOBMgq2" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="68yDfOBMfPw" role="3clF45" />
-      <node concept="3Tm1VV" id="68yDfOBMfPx" role="1B3o_S" />
-      <node concept="3clFbS" id="68yDfOBMfPy" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="68yDfOBMfLf" role="jymVt" />
-    <node concept="2tJIrI" id="68yDfOBN$ID" role="jymVt" />
     <node concept="3Tm1VV" id="68yDfOBMfKC" role="1B3o_S" />
     <node concept="3UR2Jj" id="68yDfOBMfR5" role="lGtFl">
       <node concept="TZ5HA" id="68yDfOBMfR6" role="TZ5H$">
         <node concept="1dT_AC" id="68yDfOBMfR7" role="1dT_Ay">
-          <property role="1dT_AB" value="load: From MPS to JGraph" />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="68yDfOBMfRA" role="TZ5H$">
-        <node concept="1dT_AC" id="68yDfOBMfRB" role="1dT_Ay">
-          <property role="1dT_AB" value="save: From JGraph to MPS" />
+          <property role="1dT_AB" value="Load graph from MPS model into JGraph model" />
         </node>
       </node>
     </node>
