@@ -4,6 +4,8 @@
   <languages>
     <use id="73ec9a36-9130-4b19-a4a2-6d0676623fb4" name="de.itemis.mps.editor.diagram2.sandboxlang" version="0" />
     <use id="cafebb93-9d3c-4669-8025-707ddd589e5f" name="de.itemis.mps.editor.diagram2.model" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
+    <use id="15769bfa-7eda-4be7-89ef-45e94f449a39" name="de.itemis.mps.editor.diagram2.demo.conceptdiagram" version="0" />
   </languages>
   <imports />
   <registry>
@@ -46,9 +48,26 @@
         <child id="869418422924776580" name="model" index="fz5ZR" />
       </concept>
     </language>
+    <language id="15769bfa-7eda-4be7-89ef-45e94f449a39" name="de.itemis.mps.editor.diagram2.demo.conceptdiagram">
+      <concept id="1340287296675395173" name="de.itemis.mps.editor.diagram2.demo.conceptdiagram.structure.ConceptDiagram" flags="ng" index="3_PTTk">
+        <child id="1340287296675400098" name="language" index="3_PY6j" />
+      </concept>
+    </language>
     <language id="73ec9a36-9130-4b19-a4a2-6d0676623fb4" name="de.itemis.mps.editor.diagram2.sandboxlang">
       <concept id="869418422924781865" name="de.itemis.mps.editor.diagram2.sandboxlang.structure.Diagram" flags="ng" index="fz69q">
         <child id="869418422924781871" name="graph" index="fz69s" />
+      </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="427659576753752243" name="jetbrains.mps.lang.smodel.structure.ModulePointer" flags="ng" index="20RdaH">
+        <property id="427659576753753627" name="moduleId" index="20Rdg5" />
+        <property id="427659576753753625" name="moduleName" index="20Rdg7" />
+      </concept>
+      <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
+        <child id="3542851458883491298" name="languageId" index="2V$M_3" />
+      </concept>
+      <concept id="2469893808086079682" name="jetbrains.mps.lang.smodel.structure.LanguageIdentityBySourceModule" flags="ng" index="PFCIn">
+        <child id="2469893808086079721" name="moduleReference" index="PFCIW" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -211,6 +230,16 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3_PTTk" id="1apE37Ro0EJ">
+    <node concept="pHN19" id="1apE37Ro0EK" role="3_PY6j">
+      <node concept="PFCIn" id="1apE37Rq7sz" role="2V$M_3">
+        <node concept="20RdaH" id="1apE37Rq7sy" role="PFCIW">
+          <property role="20Rdg5" value="7e450f4e-1ac3-41ef-a851-4598161bdb94" />
+          <property role="20Rdg7" value="de.slisson.mps.tables" />
         </node>
       </node>
     </node>

@@ -9,14 +9,12 @@
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="7ci9" ref="r:3101b764-03ca-4c7f-a1e5-ce21a9e7532b(de.itemis.mps.editor.diagram2.runtime)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
-    <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="ejui" ref="r:e7572c97-f79e-4917-9c7f-36dd6d783ea7(de.itemis.mps.editor.diagram2.sandboxlang.editor)" />
     <import index="1njx" ref="2f9dbb51-919a-4231-b20d-29197cc3abe6/java:com.mxgraph.view(de.itemis.mps.editor.diagram2.jgraph/)" />
     <import index="jz0w" ref="r:561ca1d6-7057-4ce3-92f8-7d8874fb0bad(de.itemis.mps.editor.diagram2.model.behavior)" />
-    <import index="cy32" ref="r:7e8d65b1-71b4-421b-9e1f-1891ff8f17b5(de.itemis.mps.editor.diagram2.sandboxlang.structure)" implicit="true" />
-    <import index="6w3k" ref="r:46063d0b-1646-48ee-9b1e-003921c627dc(de.itemis.mps.editor.diagram2.model.structure)" implicit="true" />
+    <import index="cy32" ref="r:7e8d65b1-71b4-421b-9e1f-1891ff8f17b5(de.itemis.mps.editor.diagram2.sandboxlang.structure)" />
+    <import index="6w3k" ref="r:46063d0b-1646-48ee-9b1e-003921c627dc(de.itemis.mps.editor.diagram2.model.structure)" />
     <import index="99ht" ref="2f9dbb51-919a-4231-b20d-29197cc3abe6/java:com.mxgraph.model(de.itemis.mps.editor.diagram2.jgraph/)" implicit="true" />
   </imports>
   <registry>
@@ -186,7 +184,7 @@
                       <node concept="3clFbF" id="KgMRc3AUMd" role="3cqZAp">
                         <node concept="2ShNRf" id="KgMRc3AUMb" role="3clFbG">
                           <node concept="1pGfFk" id="KgMRc3AV68" role="2ShVmc">
-                            <ref role="37wK5l" to="7ci9:KgMRc3B563" resolve="DiagramCell" />
+                            <ref role="37wK5l" to="7ci9:KgMRc3B563" resolve="JGraphCell" />
                             <node concept="1Q80Hx" id="KgMRc3AVd7" role="37wK5m" />
                             <node concept="pncrf" id="KgMRc3AVC$" role="37wK5m" />
                             <node concept="2YIFZM" id="KgMRc3B7Hm" role="37wK5m">
@@ -297,7 +295,7 @@
               <node concept="2OqwBi" id="68yDfODhhld" role="3clFbG">
                 <node concept="2ShNRf" id="68yDfODhgRh" role="2Oq$k0">
                   <node concept="HV5vD" id="68yDfODhhfv" role="2ShVmc">
-                    <ref role="HV5vE" to="jz0w:68yDfOBMfKB" resolve="GraphSynchronizer" />
+                    <ref role="HV5vE" to="jz0w:68yDfOBMfKB" resolve="GraphLoader" />
                   </node>
                 </node>
                 <node concept="liA8E" id="68yDfODhhtr" role="2OqNvi">

@@ -89,14 +89,14 @@
     </language>
   </registry>
   <node concept="312cEu" id="KgMRc3AiLp">
-    <property role="TrG5h" value="DiagramCell" />
+    <property role="TrG5h" value="JGraphCell" />
     <node concept="2tJIrI" id="KgMRc3AGDw" role="jymVt" />
     <node concept="3clFbW" id="KgMRc3AGOb" role="jymVt">
       <node concept="3cqZAl" id="KgMRc3AGOc" role="3clF45" />
       <node concept="3Tm1VV" id="KgMRc3AGOd" role="1B3o_S" />
       <node concept="3clFbS" id="KgMRc3AGOf" role="3clF47">
         <node concept="1VxSAg" id="KgMRc3AHlb" role="3cqZAp">
-          <ref role="37wK5l" node="KgMRc3AvzD" resolve="DiagramCell" />
+          <ref role="37wK5l" node="KgMRc3AvzD" resolve="JGraphCell" />
           <node concept="37vLTw" id="KgMRc3AHuv" role="37wK5m">
             <ref role="3cqZAo" node="KgMRc3AGOi" resolve="editorContext" />
           </node>
