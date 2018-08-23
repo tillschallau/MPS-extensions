@@ -24,6 +24,7 @@
         <property id="869418422924776000" name="vertex" index="fz5$N" />
         <property id="869418422924776005" name="edge" index="fz5$Q" />
         <property id="869418422924776014" name="connectable" index="fz5$X" />
+        <property id="869418422924776065" name="style" index="fz5BM" />
         <reference id="869418422924776096" name="source" index="fz5Bj" />
         <reference id="869418422924776105" name="target" index="fz5Bq" />
         <child id="869418422924776203" name="children" index="fz5xS" />
@@ -50,8 +51,14 @@
         <child id="869418422924781871" name="graph" index="fz69s" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
   </registry>
   <node concept="fz69q" id="KgMRc3Bclk">
+    <property role="TrG5h" value="Hello World" />
     <node concept="fz5ZK" id="KgMRc3Bcll" role="fz69s">
       <node concept="fyySi" id="KgMRc3Bclm" role="fz5ZR">
         <node concept="fz5_c" id="KgMRc3BhD4" role="fz5_9">
@@ -104,16 +111,99 @@
               <property role="fz5$X" value="true" />
               <property role="fz5$C" value="true" />
               <property role="fz5$v" value="false" />
-              <ref role="fz5Bj" node="KgMRc3Bjx2" />
               <ref role="fz5Bq" node="KgMRc3Bjxc" />
+              <ref role="fz5Bj" node="KgMRc3Bjx2" />
               <node concept="fz5BD" id="KgMRc3BjUq" role="fz5BC">
                 <property role="fz5WS" value="true" />
-                <node concept="fz5Wt" id="1apE37R6dhH" role="fz5WL">
-                  <node concept="fz5y0" id="1apE37R6dhM" role="fz5Ws">
-                    <property role="fz5y7" value="100" />
-                    <property role="fz5ya" value="100" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="fz69q" id="1apE37R7aal">
+    <property role="TrG5h" value="Port" />
+    <node concept="fz5ZK" id="1apE37R7aam" role="fz69s">
+      <node concept="fyySi" id="1apE37R7aan" role="fz5ZR">
+        <node concept="fz5_c" id="1apE37R7aao" role="fz5_9">
+          <property role="fz5$N" value="false" />
+          <property role="fz5$Q" value="false" />
+          <property role="fz5$X" value="true" />
+          <property role="fz5$C" value="true" />
+          <property role="fz5$v" value="false" />
+          <node concept="fz5_c" id="1apE37R7aap" role="fz5xS">
+            <property role="fz5$N" value="false" />
+            <property role="fz5$Q" value="false" />
+            <property role="fz5$X" value="true" />
+            <property role="fz5$C" value="true" />
+            <property role="fz5$v" value="false" />
+            <node concept="fz5_c" id="1apE37R7aaq" role="fz5xS">
+              <property role="fz5$N" value="true" />
+              <property role="fz5$Q" value="false" />
+              <property role="fz5$X" value="true" />
+              <property role="fz5$C" value="true" />
+              <property role="fz5BM" value="fontSize=15" />
+              <node concept="fz5_c" id="1apE37R7aar" role="fz5xS">
+                <property role="fz5$N" value="true" />
+                <property role="fz5$Q" value="false" />
+                <property role="fz5$X" value="true" />
+                <property role="fz5$v" value="false" />
+                <property role="fz5BM" value="fontSize=8" />
+                <property role="fz5$C" value="true" />
+                <node concept="fz5z7" id="1apE37R7aas" role="fz5z$">
+                  <property role="fz5z6" value="P" />
+                </node>
+                <node concept="fz5BD" id="1apE37R7aat" role="fz5BC">
+                  <property role="fz5W9" value="20" />
+                  <property role="fz5W6" value="20" />
+                  <property role="fz5y7" value="120" />
+                  <property role="fz5ya" value="30" />
+                </node>
+              </node>
+              <node concept="fz5z7" id="1apE37R7aau" role="fz5z$">
+                <property role="fz5z6" value="Hello" />
+              </node>
+              <node concept="fz5BD" id="1apE37R7aav" role="fz5BC">
+                <property role="fz5W9" value="60" />
+                <property role="fz5W6" value="120" />
+                <property role="fz5y7" value="20" />
+                <property role="fz5ya" value="20" />
+              </node>
+            </node>
+            <node concept="fz5_c" id="1apE37R7aaw" role="fz5xS">
+              <property role="fz5$N" value="true" />
+              <property role="fz5$Q" value="false" />
+              <property role="fz5$X" value="true" />
+              <property role="fz5$C" value="true" />
+              <property role="fz5$v" value="false" />
+              <property role="fz5BM" value="fontSize=15;fontColor=white" />
+              <node concept="fz5z7" id="1apE37R7aax" role="fz5z$">
+                <property role="fz5z6" value="World!" />
+              </node>
+              <node concept="fz5BD" id="1apE37R7aay" role="fz5BC">
+                <property role="fz5W6" value="80" />
+                <property role="fz5W9" value="30" />
+                <property role="fz5y7" value="240" />
+                <property role="fz5ya" value="150" />
+              </node>
+            </node>
+            <node concept="fz5_c" id="1apE37R7aaz" role="fz5xS">
+              <property role="fz5$N" value="false" />
+              <property role="fz5$Q" value="true" />
+              <property role="fz5$X" value="true" />
+              <property role="fz5$C" value="true" />
+              <property role="fz5$v" value="false" />
+              <ref role="fz5Bq" node="1apE37R7aaw" />
+              <ref role="fz5Bj" node="1apE37R7aar" />
+              <node concept="fz5BD" id="1apE37R7aa$" role="fz5BC">
+                <property role="fz5WS" value="true" />
+                <node concept="fz5Wt" id="1apE37R7aa_" role="fz5WL">
+                  <node concept="fz5y0" id="1apE37R7aaA" role="fz5Ws">
+                    <property role="fz5y7" value="200" />
+                    <property role="fz5ya" value="60" />
                   </node>
-                  <node concept="fz5y0" id="1apE37R6U5s" role="fz5Ws">
+                  <node concept="fz5y0" id="1apE37R7aaB" role="fz5Ws">
                     <property role="fz5y7" value="100" />
                     <property role="fz5ya" value="160" />
                   </node>
