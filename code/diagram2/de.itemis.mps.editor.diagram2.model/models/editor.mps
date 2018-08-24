@@ -6,8 +6,11 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="6w3k" ref="r:46063d0b-1646-48ee-9b1e-003921c627dc(de.itemis.mps.editor.diagram2.model.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -31,6 +34,10 @@
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
       <concept id="1239814640496" name="jetbrains.mps.lang.editor.structure.CellLayout_VerticalGrid" flags="nn" index="2EHx9g" />
+      <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
+      </concept>
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styleClass" index="V601i" />
       </concept>
@@ -581,6 +588,41 @@
         </node>
       </node>
       <node concept="Vb9p2" id="1apE37R5yen" role="3F10Kt" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="30TKBrK52a3">
+    <property role="TrG5h" value="VertexContent" />
+    <ref role="1XX52x" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1HlG4h" id="30TKBrK52a5" role="2wV5jI">
+      <node concept="1HfYo3" id="30TKBrK52a7" role="1HlULh">
+        <node concept="3TQlhw" id="30TKBrK52a9" role="1Hhtcw">
+          <node concept="3clFbS" id="30TKBrK52ab" role="2VODD2">
+            <node concept="3clFbF" id="30TKBrKZdA1" role="3cqZAp">
+              <node concept="2OqwBi" id="30TKBrKZdMk" role="3clFbG">
+                <node concept="pncrf" id="30TKBrKZdA0" role="2Oq$k0" />
+                <node concept="2qgKlT" id="30TKBrKZeda" role="2OqNvi">
+                  <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="30TKBrK59gk">
+    <ref role="1XX52x" to="6w3k:30TKBrK58Ti" resolve="MPSCellValue" />
+    <node concept="3EZMnI" id="30TKBrK59gm" role="2wV5jI">
+      <node concept="PMmxH" id="30TKBrK59gz" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="1iCGBv" id="30TKBrK59gI" role="3EZMnx">
+        <ref role="1NtTu8" to="6w3k:30TKBrK59g8" resolve="nodeToRender" />
+        <node concept="1sVBvm" id="30TKBrK59gK" role="1sWHZn">
+          <node concept="3SHvHV" id="30TKBrK59h0" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="30TKBrK59gp" role="2iSdaV" />
     </node>
   </node>
 </model>

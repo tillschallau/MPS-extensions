@@ -40,6 +40,7 @@
         <module reference="15769bfa-7eda-4be7-89ef-45e94f449a39(de.itemis.mps.editor.diagram2.demo.conceptdiagram)" version="0" />
         <module reference="351db03a-52e5-4392-9a97-f88aa79b7897(de.itemis.mps.editor.diagram2.demo.conceptdiagram#01)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+        <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -53,7 +54,6 @@
     <dependency reexport="false">2f9dbb51-919a-4231-b20d-29197cc3abe6(de.itemis.mps.editor.diagram2.jgraph)</dependency>
     <dependency reexport="false">1b4de353-99a5-41fe-890c-e9eea71aa7fa(de.itemis.mps.editor.diagram2.runtime)</dependency>
     <dependency reexport="false">0bf7bc3b-b11d-42e4-b160-93d72af96397(de.q60.mps.shadowmodel.runtimelang)</dependency>
-    <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:94b64715-a263-4c36-a138-8da14705ffa7:de.q60.mps.shadowmodel" version="0" />
@@ -106,6 +106,8 @@
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
   </dependencyVersions>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</extendedLanguage>
+  </extendedLanguages>
 </language>
 

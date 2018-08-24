@@ -45,9 +45,6 @@
         <child id="1153952416686" name="body" index="2GV8ay" />
         <child id="1153952429843" name="finallyBody" index="2GVbov" />
       </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -190,6 +187,7 @@
                             <node concept="2YIFZM" id="KgMRc3B7Hm" role="37wK5m">
                               <ref role="37wK5l" node="KgMRc3B4lo" resolve="build" />
                               <ref role="1Pybhc" node="KgMRc3AZT0" resolve="DiagramBuilder" />
+                              <node concept="1Q80Hx" id="30TKBrKBEg0" role="37wK5m" />
                               <node concept="2OqwBi" id="68yDfODhiK7" role="37wK5m">
                                 <node concept="pncrf" id="68yDfODhiuV" role="2Oq$k0" />
                                 <node concept="3TrEf2" id="68yDfODhj90" role="2OqNvi">
@@ -219,6 +217,12 @@
       <property role="TrG5h" value="build" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="30TKBrKBDvs" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <node concept="3uibUv" id="30TKBrKBDx_" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
       <node concept="37vLTG" id="68yDfODhfSh" role="3clF46">
         <property role="TrG5h" value="mpsModel" />
         <node concept="3Tqbb2" id="68yDfODhg3j" role="1tU5fm">
@@ -293,11 +297,6 @@
           <node concept="3clFbS" id="KgMRc3B00L" role="2GV8ay">
             <node concept="3clFbF" id="68yDfODhgRl" role="3cqZAp">
               <node concept="2OqwBi" id="68yDfODhhld" role="3clFbG">
-                <node concept="2ShNRf" id="68yDfODhgRh" role="2Oq$k0">
-                  <node concept="HV5vD" id="68yDfODhhfv" role="2ShVmc">
-                    <ref role="HV5vE" to="jz0w:68yDfOBMfKB" resolve="GraphLoader" />
-                  </node>
-                </node>
                 <node concept="liA8E" id="68yDfODhhtr" role="2OqNvi">
                   <ref role="37wK5l" to="jz0w:68yDfOBMfLy" resolve="loadGraph" />
                   <node concept="37vLTw" id="68yDfODhhvL" role="37wK5m">
@@ -305,6 +304,14 @@
                   </node>
                   <node concept="37vLTw" id="68yDfODhh_t" role="37wK5m">
                     <ref role="3cqZAo" node="KgMRc3B00$" resolve="graph" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="30TKBrKBrXy" role="2Oq$k0">
+                  <node concept="1pGfFk" id="30TKBrKBCEe" role="2ShVmc">
+                    <ref role="37wK5l" to="jz0w:30TKBrKoVeU" resolve="GraphLoader" />
+                    <node concept="37vLTw" id="30TKBrKBDyO" role="37wK5m">
+                      <ref role="3cqZAo" node="30TKBrKBDvs" resolve="editorContext" />
+                    </node>
                   </node>
                 </node>
               </node>

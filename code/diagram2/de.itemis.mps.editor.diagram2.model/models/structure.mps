@@ -16,6 +16,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -65,6 +66,7 @@
   <node concept="1TIwiD" id="KgMRc3B9eO">
     <property role="EcuMT" value="869418422924776372" />
     <property role="TrG5h" value="StringValue" />
+    <property role="34LRSv" value="&quot;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="KgMRc3B9eP" role="1TKVEl">
       <property role="IQ2nx" value="869418422924776373" />
@@ -250,6 +252,22 @@
   <node concept="Az7Fb" id="gc$lTUB">
     <property role="TrG5h" value="Double" />
     <property role="FLfZY" value="-?[0-9]+(\\.[0-9]*([Ee][\\+\\-]?[0-9]+)?[dD]?)?" />
+  </node>
+  <node concept="1TIwiD" id="30TKBrK58Ti">
+    <property role="EcuMT" value="3475022403582856786" />
+    <property role="TrG5h" value="MPSCellValue" />
+    <property role="34LRSv" value="cell" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="30TKBrK59g8" role="1TKVEi">
+      <property role="IQ2ns" value="3475022403582858248" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="nodeToRender" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="PrWs8" id="30TKBrK59g4" role="PzmwI">
+      <ref role="PrY4T" node="KgMRc3B9eU" resolve="IValue" />
+    </node>
   </node>
 </model>
 

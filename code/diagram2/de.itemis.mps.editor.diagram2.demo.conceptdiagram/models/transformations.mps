@@ -92,6 +92,7 @@
       </concept>
       <concept id="7335687028107144742" name="de.q60.mps.shadowmodel.structure.TransformationImplementation" flags="ng" index="02vpq">
         <property id="1068767335609562597" name="contribution" index="2$mnfv" />
+        <property id="3359783165114209400" name="applicableToSubconcepts" index="3Km0M4" />
         <reference id="5373338300159359234" name="interface" index="2OrxuO" />
         <child id="7335687028107245068" name="output" index="026TK" />
         <child id="7335687028107163827" name="input" index="02i3f" />
@@ -112,6 +113,9 @@
       <concept id="5373338300165862249" name="de.q60.mps.shadowmodel.structure.MapMacro" flags="ng" index="2PWHRv">
         <child id="5373338300165862254" name="call" index="2PWHRo" />
         <child id="5373338300165862252" name="input" index="2PWHRq" />
+      </concept>
+      <concept id="2573073122887437731" name="de.q60.mps.shadowmodel.structure.CopyMacro" flags="ng" index="1XuIBW">
+        <child id="2573073122887437734" name="sourceQuery" index="1XuIBT" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -152,6 +156,34 @@
   <node concept="02vhO" id="1apE37RjRcs">
     <property role="TrG5h" value="ConceptDiagram" />
     <node concept="2OrE70" id="1apE37RjRcF" role="02uzr" />
+    <node concept="2OrRyP" id="30TKBrKBLoF" role="02uzr">
+      <property role="TrG5h" value="copy" />
+      <node concept="02i3K" id="30TKBrKBLZP" role="2OrRyK">
+        <node concept="02i3D" id="30TKBrKBM01" role="02i2B">
+          <ref role="02i3$" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+      </node>
+      <node concept="02i3K" id="30TKBrKBM0b" role="2OrRyY">
+        <node concept="02i3D" id="30TKBrKBM0n" role="02i2B">
+          <ref role="02i3$" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+      </node>
+    </node>
+    <node concept="02vpq" id="30TKBrKBMCh" role="02uzr">
+      <property role="3Km0M4" value="true" />
+      <ref role="2OrxuO" node="30TKBrKBLoF" resolve="copy" />
+      <node concept="026TG" id="30TKBrKBNET" role="026TK">
+        <node concept="1XuIBW" id="30TKBrKBNFp" role="026TJ">
+          <node concept="214o7A" id="30TKBrKBNFz" role="1XuIBT" />
+        </node>
+      </node>
+      <node concept="02i3K" id="30TKBrKBNEz" role="02i3f">
+        <node concept="02i3D" id="30TKBrKBNEJ" role="02i2B">
+          <ref role="02i3$" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+      </node>
+    </node>
+    <node concept="2OrE70" id="30TKBrKBM0T" role="02uzr" />
     <node concept="2OrRyP" id="1apE37RjRdM" role="02uzr">
       <property role="TrG5h" value="graph" />
       <node concept="02i3K" id="1apE37RkXaR" role="2OrRyY">
@@ -395,15 +427,13 @@
           <ref role="02LMe" to="6w3k:KgMRc3B98Z" resolve="mxCell" />
           <node concept="027rt" id="1apE37RnFD1" role="02LM9">
             <ref role="027rv" to="6w3k:KgMRc3B9en" resolve="value" />
-            <node concept="027og" id="1apE37RnFD2" role="027rp">
-              <ref role="02LMe" to="6w3k:KgMRc3B9eO" resolve="StringValue" />
-              <node concept="027oh" id="1apE37RnFD3" role="02LM9">
-                <ref role="027oj" to="6w3k:KgMRc3B9eP" resolve="string" />
-                <node concept="2OqwBi" id="1apE37RnFD4" role="027of">
-                  <node concept="214o7A" id="1apE37RnFD5" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="1apE37RnFD6" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
+            <node concept="027og" id="30TKBrKBGt3" role="027rp">
+              <ref role="02LMe" to="6w3k:30TKBrK58Ti" resolve="MPSCellValue" />
+              <node concept="027ru" id="30TKBrKBGtc" role="02LM9">
+                <ref role="027ri" to="6w3k:30TKBrK59g8" resolve="nodeToRender" />
+                <node concept="214gnc" id="30TKBrKBKaI" role="027rd">
+                  <ref role="2P$kNQ" node="30TKBrKBLoF" resolve="copy" />
+                  <node concept="214o7A" id="30TKBrKBRfX" role="214sll" />
                 </node>
               </node>
             </node>
