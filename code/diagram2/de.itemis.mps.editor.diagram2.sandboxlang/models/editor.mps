@@ -15,7 +15,8 @@
     <import index="jz0w" ref="r:561ca1d6-7057-4ce3-92f8-7d8874fb0bad(de.itemis.mps.editor.diagram2.model.behavior)" />
     <import index="cy32" ref="r:7e8d65b1-71b4-421b-9e1f-1891ff8f17b5(de.itemis.mps.editor.diagram2.sandboxlang.structure)" />
     <import index="6w3k" ref="r:46063d0b-1646-48ee-9b1e-003921c627dc(de.itemis.mps.editor.diagram2.model.structure)" />
-    <import index="99ht" ref="2f9dbb51-919a-4231-b20d-29197cc3abe6/java:com.mxgraph.model(de.itemis.mps.editor.diagram2.jgraph/)" implicit="true" />
+    <import index="18t6" ref="2f9dbb51-919a-4231-b20d-29197cc3abe6/java:com.mxgraph.util(de.itemis.mps.editor.diagram2.jgraph/)" />
+    <import index="99ht" ref="2f9dbb51-919a-4231-b20d-29197cc3abe6/java:com.mxgraph.model(de.itemis.mps.editor.diagram2.jgraph/)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -91,6 +92,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -219,12 +221,14 @@
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="30TKBrKBDvs" role="3clF46">
         <property role="TrG5h" value="editorContext" />
+        <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="30TKBrKBDx_" role="1tU5fm">
           <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
         </node>
       </node>
       <node concept="37vLTG" id="68yDfODhfSh" role="3clF46">
         <property role="TrG5h" value="mpsModel" />
+        <property role="3TUv4t" value="true" />
         <node concept="3Tqbb2" id="68yDfODhg3j" role="1tU5fm">
           <ref role="ehGHo" to="6w3k:KgMRc3B9i3" resolve="mxGraph" />
         </node>
@@ -232,7 +236,7 @@
       <node concept="3clFbS" id="KgMRc3AZTK" role="3clF47">
         <node concept="3cpWs8" id="KgMRc3B00_" role="3cqZAp">
           <node concept="3cpWsn" id="KgMRc3B00$" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
+            <property role="3TUv4t" value="true" />
             <property role="TrG5h" value="graph" />
             <node concept="3uibUv" id="KgMRc3B00A" role="1tU5fm">
               <ref role="3uigEE" to="1njx:~mxGraph" resolve="mxGraph" />
@@ -425,6 +429,8 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="TB2rf$7Itu" role="3cqZAp" />
+        <node concept="3clFbH" id="TB2rf$7IV9" role="3cqZAp" />
         <node concept="3cpWs6" id="KgMRc3B8tn" role="3cqZAp">
           <node concept="37vLTw" id="KgMRc3B8Nt" role="3cqZAk">
             <ref role="3cqZAo" node="KgMRc3B00$" resolve="graph" />
