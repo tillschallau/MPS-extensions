@@ -55,6 +55,7 @@
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW">
         <child id="7033942394258392116" name="overridenEditorComponent" index="1PM95z" />
       </concept>
+      <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
       </concept>
@@ -258,8 +259,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -688,24 +699,28 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="3clFbF" id="1apE37Ro2an" role="3cqZAp">
-                              <node concept="2OqwBi" id="1apE37Ro4g$" role="3clFbG">
-                                <node concept="2ShNRf" id="1apE37Ro2aj" role="2Oq$k0">
-                                  <node concept="1pGfFk" id="1apE37Ro3FV" role="2ShVmc">
-                                    <ref role="37wK5l" to="j8j9:~mxHierarchicalLayout.&lt;init&gt;(com.mxgraph.view.mxGraph)" resolve="mxHierarchicalLayout" />
-                                    <node concept="37vLTw" id="1apE37Ro3SY" role="37wK5m">
-                                      <ref role="3cqZAo" node="1apE37RjLKt" resolve="graph" />
+                            <node concept="1X3_iC" id="6N6zH_hXdu8" role="lGtFl">
+                              <property role="3V$3am" value="statement" />
+                              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                              <node concept="3clFbF" id="1apE37Ro2an" role="8Wnug">
+                                <node concept="2OqwBi" id="1apE37Ro4g$" role="3clFbG">
+                                  <node concept="2ShNRf" id="1apE37Ro2aj" role="2Oq$k0">
+                                    <node concept="1pGfFk" id="1apE37Ro3FV" role="2ShVmc">
+                                      <ref role="37wK5l" to="j8j9:~mxHierarchicalLayout.&lt;init&gt;(com.mxgraph.view.mxGraph)" resolve="mxHierarchicalLayout" />
+                                      <node concept="37vLTw" id="1apE37Ro3SY" role="37wK5m">
+                                        <ref role="3cqZAo" node="1apE37RjLKt" resolve="graph" />
+                                      </node>
                                     </node>
                                   </node>
-                                </node>
-                                <node concept="liA8E" id="1apE37Ro4TV" role="2OqNvi">
-                                  <ref role="37wK5l" to="j8j9:~mxHierarchicalLayout.execute(java.lang.Object):void" resolve="execute" />
-                                  <node concept="2OqwBi" id="1apE37Ro5vP" role="37wK5m">
-                                    <node concept="37vLTw" id="1apE37Ro5a5" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="1apE37RjLKt" resolve="graph" />
-                                    </node>
-                                    <node concept="liA8E" id="1apE37Ro6qE" role="2OqNvi">
-                                      <ref role="37wK5l" to="1njx:~mxGraph.getDefaultParent():java.lang.Object" resolve="getDefaultParent" />
+                                  <node concept="liA8E" id="1apE37Ro4TV" role="2OqNvi">
+                                    <ref role="37wK5l" to="j8j9:~mxHierarchicalLayout.execute(java.lang.Object):void" resolve="execute" />
+                                    <node concept="2OqwBi" id="1apE37Ro5vP" role="37wK5m">
+                                      <node concept="37vLTw" id="1apE37Ro5a5" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="1apE37RjLKt" resolve="graph" />
+                                      </node>
+                                      <node concept="liA8E" id="1apE37Ro6qE" role="2OqNvi">
+                                        <ref role="37wK5l" to="1njx:~mxGraph.getDefaultParent():java.lang.Object" resolve="getDefaultParent" />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
@@ -890,6 +905,10 @@
     <node concept="1PE4EZ" id="30TKBrKZpUy" role="1PM95z">
       <ref role="1PE7su" to="h66c:30TKBrK52a3" resolve="VertexContent" />
     </node>
+  </node>
+  <node concept="24kQdi" id="35N923AqOpR">
+    <ref role="1XX52x" to="zp9m:TB2rf$eExq" resolve="LayoutMap" />
+    <node concept="2SsqMj" id="35N923AqOqD" role="2wV5jI" />
   </node>
 </model>
 
