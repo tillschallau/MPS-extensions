@@ -5319,11 +5319,15 @@
             <node concept="3qWCbU" id="4kNfJosWyxH" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
-            <node concept="55IIr" id="4kNfJosWyxI" role="3LXTmr">
-              <node concept="2Ry0Ak" id="4kNfJosWyxJ" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="4kNfJosWyxK" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.dslfoundry.plaintextgen" />
+            <node concept="398BVA" id="569pXI$zIxB" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="569pXI$zJ4H" role="iGT6I">
+                <property role="2Ry0Am" value="plaintextgen" />
+                <node concept="2Ry0Ak" id="569pXI$zJmi" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="569pXI$zJmn" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.dslfoundry.plaintextgen" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -5648,6 +5652,9 @@
       </node>
       <node concept="m$_wl" id="2NyZxKpV2Ss" role="39821P">
         <ref role="m_rDy" node="2NyZxKpUXYJ" resolve="de.itemis.mps.blutil" />
+      </node>
+      <node concept="m$_wl" id="569pXI$zHqj" role="39821P">
+        <ref role="m_rDy" node="2NTGYE$JTH6" resolve="com.dslfoundry.plaintextgen" />
       </node>
     </node>
   </node>
