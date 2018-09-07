@@ -177,21 +177,22 @@ File scriptFile(String relativePath) {
 
 def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
 
+if (!ciBuild) {
+    //enable incremental generation when not in CI build
+    defaultScriptArgs.add("-Dmps.generator.skipUnmodifiedModels=true")
+}
+
 
 
 task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps]) {
-    script scriptFile('allScripts/build.xml')
-    inputs.file(scriptFile('allScripts/build.xml'))
-    inputs.dir("$rootDir/code/mps-build/solutions/de.slisson.mps.all.build/models")
-    inputs.file("$rootDir/code/mps-build/solutions/de.slisson.mps.all.build/de.slisson.mps.all.build.msd")
-    outputs.dir("$rootDir/build/generated/languages")
-    outputs.dir("$rootDir/build/generated/tests")
+    script new File("$rootDir/scripts/generated/allScripts/build.xml")
     scriptArgs = defaultScriptArgs
     scriptClasspath = buildScriptClasspath
 }
 
 task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]) {
     script scriptFile('languages/build.xml')
+    targets("generate", "assemble")
     scriptArgs = defaultScriptArgs
     scriptClasspath = buildScriptClasspath
 }
@@ -199,6 +200,7 @@ task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]) {
 task run_tests(type: TestLanguages, dependsOn: build_languages) {
     description "Will execute all tests from command line"
     script scriptFile('tests/build.xml')
+    targets("generate", "assemble", "check")
     scriptArgs = defaultScriptArgs
     scriptClasspath = buildScriptClasspath
 }
@@ -242,11 +244,7 @@ dependencies {
     }
 }
 
-task packageAllScripts(type: Zip, dependsOn: run_tests) {
-    baseName 'de.itemis.mps.extensions.allScripts'
-    from artifactsDir
-    include 'de.itemis.mps.extensions.allScripts/**'
-}
+
 
 task packageExtensions(type: Zip, dependsOn: run_tests) {
     baseName 'de.itemis.mps.extensions'
@@ -287,6 +285,11 @@ publishing {
     }
 }
 
+task cleanMps(type: Delete) {
+    delete fileTree(dir: projectDir, include: ["**/classes_gen/**", "**/source_gen/**", "**/source_gen.caches/**", "tmp/**"])
+}
+
+clean.dependsOn cleanMps
 
 defaultTasks 'build_languages'
 task test(dependsOn: run_tests)
@@ -319,3 +322,25 @@ github {
 }
 
 githubRelease.dependsOn packageExtensions
+
+
+project.gradle.addBuildListener(new BuildAdapter() {
+    @Override
+    void buildFinished(BuildResult result) {
+        logger.warn("###################################################################################################")
+        logger.warn("#                                                                                                 #")
+        logger.warn("#  Incremental generation has been turned on for this project recently. If you see this message   #")
+        logger.warn("#  for the fist time please invoke the clean task to purge all outdated transient models:         #")
+        logger.warn("#                                                                                                 #")
+        logger.warn("#                                    ./gradlew clean                                              #")
+        logger.warn("#                                                                                                 #")
+        logger.warn("#  A normal build will now only regenerate and compile the models that have changed. In case you  #")
+        logger.warn("#  experience strange behaviour or want to rebuild all models invoke the clean task, e.g.:        #")
+        logger.warn("#                                                                                                 #")
+        logger.warn("#                           ./gradlew clean build_languages                                       #")
+        logger.warn("#                                                                                                 #")
+        logger.warn("###################################################################################################")
+    }
+})
+
+

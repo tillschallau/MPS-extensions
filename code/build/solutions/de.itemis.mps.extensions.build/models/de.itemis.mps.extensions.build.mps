@@ -209,6 +209,12 @@
   <node concept="1l3spW" id="2Xjt3l56m0V">
     <property role="TrG5h" value="de.itemis.mps.extensions" />
     <property role="2DA0ip" value="../../../../build/generated/languages" />
+    <node concept="1wNqPr" id="DSe62NwM0T" role="3989C9">
+      <property role="3Ej$Sc" value="true" />
+      <property role="1wOHq$" value="true" />
+      <property role="1wNuhe" value="true" />
+      <property role="1wNuhh" value="16" />
+    </node>
     <node concept="m$_wf" id="4hvHh3QW$Eh" role="3989C9">
       <property role="m$_wk" value="de.slisson.mps.all" />
       <node concept="3_J27D" id="4hvHh3QW$Ei" role="m$_yQ">
@@ -289,7 +295,7 @@
       </node>
     </node>
     <node concept="2igEWh" id="2MQBX6KMw95" role="1hWBAP">
-      <property role="3UIfUI" value="2024" />
+      <property role="3UIfUI" value="6144" />
       <property role="1YnnvL" value="1000" />
     </node>
     <node concept="m$_wf" id="2H_mjOXw1Ef" role="3989C9">
@@ -5201,13 +5207,6 @@
     <node concept="2_Ic$z" id="5KXebfcSw7" role="3989C9">
       <property role="2_Ic$$" value="true" />
       <property role="TZNOO" value="1.8" />
-    </node>
-    <node concept="1wNqPr" id="2B1T7v1mPNt" role="3989C9">
-      <property role="1wNuhc" value="true" />
-      <property role="1wNuhh" value="16" />
-      <property role="1wOHq$" value="true" />
-      <property role="1wNuhe" value="true" />
-      <property role="3Ej$Sc" value="true" />
     </node>
     <node concept="10PD9b" id="2Xjt3l56m0W" role="10PD9s" />
     <node concept="3b7kt6" id="2Xjt3l56m0X" role="10PD9s" />

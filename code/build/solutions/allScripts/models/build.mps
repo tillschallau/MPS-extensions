@@ -106,7 +106,7 @@
   </registry>
   <node concept="1l3spW" id="2Xjt3l56m0V">
     <property role="TrG5h" value="de.itemis.mps.extensions.allScripts" />
-    <property role="2DA0ip" value="../../../../build/generated/allScripts" />
+    <property role="2DA0ip" value="../../../../scripts/generated/allScripts" />
     <node concept="2G$12M" id="2Xjt3l5bx4Z" role="3989C9">
       <property role="TrG5h" value="de.slisson.mps.all" />
       <node concept="1E1JtA" id="PE3B26VOkn" role="2G$12L">
