@@ -37,6 +37,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -72,6 +75,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -467,6 +471,20 @@
                 <node concept="214o7A" id="TB2rf$hLlg" role="214sll" />
                 <node concept="2155sH" id="TB2rf$haZZ" role="214sll">
                   <ref role="2155sG" node="TB2rf$haNY" resolve="layoutOwner" />
+                </node>
+              </node>
+            </node>
+            <node concept="3n2vWJ" id="3KKRs1AsGZG" role="3n20R1">
+              <node concept="3clFbS" id="3KKRs1AsGZH" role="2VODD2">
+                <node concept="YS8fn" id="3KKRs1AsJAy" role="3cqZAp">
+                  <node concept="2ShNRf" id="3KKRs1AsJAH" role="YScLw">
+                    <node concept="1pGfFk" id="3KKRs1AsKKX" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                      <node concept="Xl_RD" id="3KKRs1AsKVb" role="37wK5m">
+                        <property role="Xl_RC" value="Not implemented" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
