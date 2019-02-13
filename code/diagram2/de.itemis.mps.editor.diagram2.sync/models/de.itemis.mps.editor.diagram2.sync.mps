@@ -102,7 +102,6 @@
   <node concept="3HP615" id="68yDfOBMgDh">
     <property role="TrG5h" value="ISyncEntity" />
     <node concept="3clFb_" id="68yDfOBMgLv" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getProperties" />
       <node concept="_YKpA" id="68yDfOBMgNv" role="3clF45">
         <node concept="3uibUv" id="68yDfOBMgNT" role="_ZDj9">
@@ -117,7 +116,6 @@
   <node concept="3HP615" id="68yDfOBMgvq">
     <property role="TrG5h" value="IValue" />
     <node concept="3clFb_" id="68yDfOBNB0Y" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="read" />
       <node concept="16syzq" id="68yDfOBNB9N" role="3clF45">
         <ref role="16sUi3" node="68yDfOBMg$P" resolve="E" />
@@ -126,7 +124,6 @@
       <node concept="3clFbS" id="68yDfOBNB13" role="3clF47" />
     </node>
     <node concept="3clFb_" id="68yDfOBNB14" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="write" />
       <node concept="37vLTG" id="68yDfOBNB17" role="3clF46">
         <property role="TrG5h" value="value" />
