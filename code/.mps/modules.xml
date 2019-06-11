@@ -43,19 +43,19 @@
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.shapes/de.itemis.mps.editor.diagram.shapes.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/test.de.itemis.mps.editor.diagram.solution/test.de.itemis.mps.editor.diagram.solution.msd" folder="diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.demo.conceptdiagram/de.itemis.mps.editor.diagram2.demo.conceptdiagram.mpl" folder="shadowmodels.diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.jgraph/de.itemis.mps.editor.diagram2.jgraph.msd" folder="shadowmodels.diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.model/de.itemis.mps.editor.diagram2.model.mpl" folder="shadowmodels.diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.runtime/de.itemis.mps.editor.diagram2.runtime.msd" folder="shadowmodels.diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sandbox/de.itemis.mps.editor.diagram2.sandbox.msd" folder="shadowmodels.diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sandboxlang/de.itemis.mps.editor.diagram2.sandboxlang.mpl" folder="shadowmodels.diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sync/de.itemis.mps.editor.diagram2.sync.msd" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.runtimelang/com.mbeddr.mpsutil.grammarcells.runtimelang.mpl" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.sandboxlang/com.mbeddr.mpsutil.grammarcells.sandboxlang.mpl" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells/com.mbeddr.mpsutil.grammarcells.mpl" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.runtime/com.mbeddr.mpsutil.grammarcells.runtime.msd" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.sandbox/com.mbeddr.mpsutil.grammarcells.sandbox.msd" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.tests/com.mbeddr.mpsutil.grammarcells.tests.msd" folder="grammarcells" />
-      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.demo.conceptdiagram/de.itemis.mps.editor.diagram2.demo.conceptdiagram.mpl" folder="diagram2" />
-      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.jgraph/de.itemis.mps.editor.diagram2.jgraph.msd" folder="diagram2" />
-      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.model/de.itemis.mps.editor.diagram2.model.mpl" folder="diagram2" />
-      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.runtime/de.itemis.mps.editor.diagram2.runtime.msd" folder="diagram2" />
-      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sandbox/de.itemis.mps.editor.diagram2.sandbox.msd" folder="diagram2" />
-      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sandboxlang/de.itemis.mps.editor.diagram2.sandboxlang.mpl" folder="diagram2" />
-      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sync/de.itemis.mps.editor.diagram2.sync.msd" folder="diagram2" />
       <modulePath path="$PROJECT_DIR$/hacks/languages/de.itemis.mps.nativelibs/de.itemis.mps.nativelibs.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/languages/de.slisson.mps.hacks.xmodelgen/de.slisson.mps.hacks.xmodelgen.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/languages/de.slisson.mps.reflection/de.slisson.mps.reflection.mpl" folder="hacks" />
