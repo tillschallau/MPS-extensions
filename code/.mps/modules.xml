@@ -43,6 +43,7 @@
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.shapes/de.itemis.mps.editor.diagram.shapes.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/test.de.itemis.mps.editor.diagram.solution/test.de.itemis.mps.editor.diagram.solution.msd" folder="diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.cell/de.itemis.mps.editor.diagram2.cell.mpl" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.demo.conceptdiagram/de.itemis.mps.editor.diagram2.demo.conceptdiagram.mpl" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.jgraph/de.itemis.mps.editor.diagram2.jgraph.msd" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.model/de.itemis.mps.editor.diagram2.model.mpl" folder="shadowmodels.diagram" />

@@ -18,11 +18,12 @@
     <import index="ej6i" ref="r:6496ea12-c64c-456b-91b7-9e7f80ac2f9c(de.q60.mps.shadowmodels.target.editor.behavior)" />
     <import index="5hyg" ref="r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="hm90" ref="r:61d96d59-75af-4854-9d37-c81762926dfe(de.q60.mps.shadowmodels.transformation.behavior)" />
+    <import index="w1id" ref="r:b7a28505-5dde-4ae1-bc23-c5f258ebabb3(de.itemis.mps.editor.diagram2.cell.runtime)" />
     <import index="yb34" ref="r:530aea2f-dc0b-465c-91dd-a75239ac9e81(de.q60.mps.shadowmodels.examples.statemachine.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="hm90" ref="r:61d96d59-75af-4854-9d37-c81762926dfe(de.q60.mps.shadowmodels.transformation.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -367,7 +368,7 @@
                       <node concept="2OqwBi" id="3CYlK6ygJ0p" role="33vP2m">
                         <node concept="2YIFZM" id="3CYlK6ygJ0q" role="2Oq$k0">
                           <ref role="37wK5l" to="yyp8:7NatPTM0nC_" resolve="getUpdater" />
-                          <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="UpdaterForEditor" />
+                          <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="TransformationEngineForEditor" />
                           <node concept="2OqwBi" id="3CYlK6ygJ0r" role="37wK5m">
                             <node concept="1Q80Hx" id="3CYlK6ygJ0s" role="2Oq$k0" />
                             <node concept="liA8E" id="3CYlK6ygJ0t" role="2OqNvi">
@@ -571,6 +572,38 @@
         </node>
         <node concept="2w$q5c" id="2VTIUrjoVXF" role="2whIAn">
           <node concept="2aJ2om" id="2VTIUrjoVXG" role="2w$qW5">
+            <ref role="2$4xQ3" node="2VTIUrjobTS" resolve="inTable" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1$T4OZGug$k" role="3EZMnx" />
+      <node concept="3F0ifn" id="1$T4OZGug$j" role="3EZMnx">
+        <property role="3F0ifm" value="statemachine as diagram" />
+      </node>
+      <node concept="3F0ifn" id="1$T4OZGug$i" role="3EZMnx" />
+      <node concept="3EZMnI" id="1$T4OZGugyG" role="3EZMnx">
+        <node concept="2iRfu4" id="1$T4OZGugyH" role="2iSdaV" />
+        <node concept="gc7cB" id="1apE37Rj_t0" role="3EZMnx">
+          <node concept="3VJUX4" id="1apE37Rj_t2" role="3YsKMw">
+            <node concept="3clFbS" id="1apE37Rj_t4" role="2VODD2">
+              <node concept="3clFbF" id="1$T4OZGwsWW" role="3cqZAp">
+                <node concept="2ShNRf" id="1$T4OZGwsWS" role="3clFbG">
+                  <node concept="1pGfFk" id="1$T4OZGwIyZ" role="2ShVmc">
+                    <ref role="37wK5l" to="w1id:1$T4OZGuzfc" resolve="DiagramCellProvider" />
+                    <node concept="2OqwBi" id="1$T4OZGwKtq" role="37wK5m">
+                      <node concept="pncrf" id="1$T4OZGwGm4" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="1$T4OZGwL60" role="2OqNvi">
+                        <ref role="3Tt5mk" to="yb34:2VTIUrjljyQ" resolve="statemachine" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2w$q5c" id="1$T4OZGug$g" role="2whIAn">
+          <node concept="2aJ2om" id="1$T4OZGug$h" role="2w$qW5">
             <ref role="2$4xQ3" node="2VTIUrjobTS" resolve="inTable" />
           </node>
         </node>
