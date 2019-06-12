@@ -27,6 +27,7 @@
     <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
     <import index="6y8" ref="r:84bdf498-a7b7-4050-8eec-ebd94d3bd321(de.q60.mps.shadowmodels.web.json.structure)" />
     <import index="70w2" ref="r:59e1f3dd-5dad-4bbd-ad65-fef01059d9d2(de.q60.mps.shadowmodels.web.dom.structure)" />
+    <import index="dkdu" ref="r:66aa4233-4787-4043-ae66-a698910e329a(de.q60.mps.shadowmodels.runtime.objectadapters)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -706,7 +707,7 @@
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="7q7cTU0Vv0m" role="2OqNvi">
-                                      <ref role="37wK5l" to="l6bp:qmkA5fQFVR" resolve="getElement" />
+                                      <ref role="37wK5l" to="dkdu:qmkA5fQFVR" resolve="getElement" />
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="7q7cTU0VHti" role="2OqNvi">
@@ -1947,7 +1948,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="62_qJBxL8Kf" role="2OqNvi">
-                <ref role="37wK5l" to="l6bp:qmkA5fQFVR" resolve="getElement" />
+                <ref role="37wK5l" to="dkdu:qmkA5fQFVR" resolve="getElement" />
               </node>
             </node>
             <node concept="liA8E" id="62_qJBxL8Kg" role="2OqNvi">
@@ -1992,7 +1993,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="62_qJBxLojc" role="2OqNvi">
-                <ref role="37wK5l" to="l6bp:qmkA5fQFVR" resolve="getElement" />
+                <ref role="37wK5l" to="dkdu:qmkA5fQFVR" resolve="getElement" />
               </node>
             </node>
             <node concept="liA8E" id="62_qJBxLojd" role="2OqNvi">
