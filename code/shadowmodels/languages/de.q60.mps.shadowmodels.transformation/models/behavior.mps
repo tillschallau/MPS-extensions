@@ -979,7 +979,7 @@
                 <ref role="35c_gD" to="oyp0:35N923AuHK$" resolve="ChildCreateHandler_index" />
               </node>
               <node concept="35c_gC" id="35N923AuIEy" role="HW$Y0">
-                <ref role="35c_gD" to="oyp0:35N923AuHJh" resolve="ChildCreateHandler_concept" />
+                <ref role="35c_gD" to="oyp0:35N923AuHJh" resolve="ChildCreateHandler_outputTemplate" />
               </node>
             </node>
           </node>
@@ -1022,7 +1022,7 @@
   </node>
   <node concept="13h7C7" id="35N923AuJi1">
     <property role="3GE5qa" value="builder" />
-    <ref role="13h7C2" to="oyp0:35N923AuHJh" resolve="ChildCreateHandler_concept" />
+    <ref role="13h7C2" to="oyp0:35N923AuHJh" resolve="ChildCreateHandler_outputTemplate" />
     <node concept="13hLZK" id="35N923AuJi2" role="13h7CW">
       <node concept="3clFbS" id="35N923AuJi3" role="2VODD2" />
     </node>
@@ -1064,9 +1064,9 @@
         <node concept="3clFbF" id="35N923AuLyW" role="3cqZAp">
           <node concept="2pJPEk" id="35N923AuLyS" role="3clFbG">
             <node concept="2pJPED" id="35N923AuMo2" role="2pJPEn">
-              <ref role="2pJxaS" to="tp25:5MFgGQnlLNI" resolve="SConceptType" />
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
               <node concept="2pIpSj" id="35N923AuMrl" role="2pJxcM">
-                <ref role="2pIpSl" to="tp25:5MFgGQnlLNJ" resolve="conceptDeclaraton" />
+                <ref role="2pIpSl" to="tp25:g$ehGDh" resolve="concept" />
                 <node concept="36biLy" id="35N923AuMwK" role="2pJxcZ">
                   <node concept="37vLTw" id="35N923AuM$a" role="36biLW">
                     <ref role="3cqZAo" node="35N923AuL8e" resolve="concept" />

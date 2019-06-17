@@ -732,8 +732,8 @@
   <node concept="1TIwiD" id="35N923AuHJh">
     <property role="EcuMT" value="3563231453904559057" />
     <property role="3GE5qa" value="builder" />
-    <property role="TrG5h" value="ChildCreateHandler_concept" />
-    <property role="34LRSv" value="concept" />
+    <property role="TrG5h" value="ChildCreateHandler_outputTemplate" />
+    <property role="34LRSv" value="outputTemplate" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="35N923AuHK$">

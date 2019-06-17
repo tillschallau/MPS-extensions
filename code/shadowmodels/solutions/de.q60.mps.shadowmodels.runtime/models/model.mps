@@ -202,6 +202,7 @@
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
       </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
@@ -614,6 +615,43 @@
       <node concept="3Tm1VV" id="3ECE8iPHBwJ" role="1B3o_S" />
       <node concept="3clFbS" id="3ECE8iPHBwK" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="1$T4OZH93PB" role="jymVt">
+      <property role="TrG5h" value="addNewChild" />
+      <node concept="37vLTG" id="1$T4OZH93PC" role="3clF46">
+        <property role="TrG5h" value="role" />
+        <node concept="17QB3L" id="1$T4OZH93PD" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1$T4OZH93PE" role="3clF46">
+        <property role="TrG5h" value="index" />
+        <node concept="10Oyi0" id="1$T4OZH93PF" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1$T4OZH93PG" role="3clF46">
+        <property role="TrG5h" value="template" />
+        <node concept="3uibUv" id="1$T4OZH943M" role="1tU5fm">
+          <ref role="3uigEE" node="5gTrVpGiHIH" resolve="INode" />
+        </node>
+        <node concept="2AHcQZ" id="1$T4OZH93PI" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="1$T4OZH93PJ" role="3clF45">
+        <ref role="3uigEE" node="5gTrVpGiHIH" resolve="INode" />
+      </node>
+      <node concept="3Tm1VV" id="1$T4OZH93PK" role="1B3o_S" />
+      <node concept="3clFbS" id="1$T4OZH93PL" role="3clF47" />
+      <node concept="P$JXv" id="1$T4OZH9_Up" role="lGtFl">
+        <node concept="TZ5HA" id="1$T4OZH9_Uq" role="TZ5H$">
+          <node concept="1dT_AC" id="1$T4OZH9_Ur" role="1dT_Ay">
+            <property role="1dT_AB" value="This node has to create a child that is of the same or a sub-concept of the template node." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1$T4OZH9Az4" role="TZ5H$">
+          <node concept="1dT_AC" id="1$T4OZH9Az5" role="1dT_Ay">
+            <property role="1dT_AB" value="Everything else is optional. The whole template can be created or only part of it." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="7vWAzuF7mor" role="jymVt">
       <property role="TrG5h" value="removeChild" />
       <node concept="37vLTG" id="7vWAzuF7mZE" role="3clF46">
@@ -625,6 +663,36 @@
       <node concept="3cqZAl" id="7vWAzuF7mot" role="3clF45" />
       <node concept="3Tm1VV" id="7vWAzuF7mou" role="1B3o_S" />
       <node concept="3clFbS" id="7vWAzuF7mov" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5KXPamBkAuZ" role="jymVt">
+      <property role="TrG5h" value="tryMoveChild" />
+      <node concept="37vLTG" id="5KXPamBkBe0" role="3clF46">
+        <property role="TrG5h" value="role" />
+        <node concept="17QB3L" id="5KXPamBkBta" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5KXPamBkBFQ" role="3clF46">
+        <property role="TrG5h" value="fromIndex" />
+        <node concept="10Oyi0" id="5KXPamBkBV6" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5KXPamBkCbQ" role="3clF46">
+        <property role="TrG5h" value="toIndex" />
+        <node concept="10Oyi0" id="5KXPamBkCr8" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="5KXPamBkCGR" role="3clF45" />
+      <node concept="3Tm1VV" id="5KXPamBkAv2" role="1B3o_S" />
+      <node concept="3clFbS" id="5KXPamBkAv3" role="3clF47" />
+      <node concept="P$JXv" id="5KXPamBkCJr" role="lGtFl">
+        <node concept="TZ5HA" id="5KXPamBkCJs" role="TZ5H$">
+          <node concept="1dT_AC" id="5KXPamBkCJt" role="1dT_Ay">
+            <property role="1dT_AB" value="If moving the child is not possible, return false." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5KXPamBkDWG" role="TZ5H$">
+          <node concept="1dT_AC" id="5KXPamBkDWH" role="1dT_Ay">
+            <property role="1dT_AB" value="Then the caller is responsible for creating a new child and removing the old one." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5gTrVpGiTR7" role="jymVt" />
     <node concept="3clFb_" id="5gTrVpGiTnl" role="jymVt">
@@ -1302,6 +1370,112 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="7vWAzuEFV2c" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1$T4OZHapbV" role="jymVt">
+      <property role="TrG5h" value="addNewChild" />
+      <node concept="37vLTG" id="1$T4OZHapbW" role="3clF46">
+        <property role="TrG5h" value="role" />
+        <node concept="17QB3L" id="1$T4OZHapbX" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1$T4OZHapbY" role="3clF46">
+        <property role="TrG5h" value="index" />
+        <node concept="10Oyi0" id="1$T4OZHapbZ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1$T4OZHapc0" role="3clF46">
+        <property role="TrG5h" value="template" />
+        <node concept="3uibUv" id="1$T4OZHar0F" role="1tU5fm">
+          <ref role="3uigEE" node="5gTrVpGiHIH" resolve="INode" />
+        </node>
+        <node concept="2AHcQZ" id="1$T4OZHapc2" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="1$T4OZHapc3" role="3clF45">
+        <ref role="3uigEE" node="5gTrVpGiHIH" resolve="INode" />
+      </node>
+      <node concept="3Tm1VV" id="1$T4OZHapc4" role="1B3o_S" />
+      <node concept="3clFbS" id="1$T4OZHapc5" role="3clF47">
+        <node concept="3clFbF" id="1$T4OZHasFx" role="3cqZAp">
+          <node concept="1rXfSq" id="1$T4OZHasFw" role="3clFbG">
+            <ref role="37wK5l" node="7vWAzuEFV20" resolve="addNewChild" />
+            <node concept="37vLTw" id="1$T4OZHat1P" role="37wK5m">
+              <ref role="3cqZAo" node="1$T4OZHapbW" resolve="role" />
+            </node>
+            <node concept="37vLTw" id="1$T4OZHatoS" role="37wK5m">
+              <ref role="3cqZAo" node="1$T4OZHapbY" resolve="index" />
+            </node>
+            <node concept="3K4zz7" id="1$T4OZHavh5" role="37wK5m">
+              <node concept="10Nm6u" id="1$T4OZHavBf" role="3K4E3e" />
+              <node concept="2OqwBi" id="1$T4OZHavNS" role="3K4GZi">
+                <node concept="37vLTw" id="1$T4OZHavFu" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1$T4OZHapc0" resolve="template" />
+                </node>
+                <node concept="liA8E" id="1$T4OZHawxx" role="2OqNvi">
+                  <ref role="37wK5l" node="5gTrVpGjdrb" resolve="getConcept" />
+                </node>
+              </node>
+              <node concept="3clFbC" id="1$T4OZHauxU" role="3K4Cdx">
+                <node concept="10Nm6u" id="1$T4OZHav3x" role="3uHU7w" />
+                <node concept="37vLTw" id="1$T4OZHatMU" role="3uHU7B">
+                  <ref role="3cqZAo" node="1$T4OZHapc0" resolve="template" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1$T4OZHapcj" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="5KXPamBpgMh" role="jymVt">
+      <property role="TrG5h" value="tryMoveChild" />
+      <node concept="37vLTG" id="5KXPamBpgMi" role="3clF46">
+        <property role="TrG5h" value="role" />
+        <node concept="17QB3L" id="5KXPamBpgMj" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5KXPamBpgMk" role="3clF46">
+        <property role="TrG5h" value="fromIndex" />
+        <node concept="10Oyi0" id="5KXPamBpgMl" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5KXPamBpgMm" role="3clF46">
+        <property role="TrG5h" value="toIndex" />
+        <node concept="10Oyi0" id="5KXPamBpgMn" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="5KXPamBpgMo" role="3clF45" />
+      <node concept="3Tm1VV" id="5KXPamBpgMp" role="1B3o_S" />
+      <node concept="3clFbS" id="5KXPamBpgMw" role="3clF47">
+        <node concept="3clFbF" id="5KXPamBpGQT" role="3cqZAp">
+          <node concept="2OqwBi" id="5KXPamBpIas" role="3clFbG">
+            <node concept="37vLTw" id="5KXPamBpGQR" role="2Oq$k0">
+              <ref role="3cqZAo" node="7vWAzuEG0nA" resolve="children" />
+            </node>
+            <node concept="1sK_Qi" id="5KXPamBpZaH" role="2OqNvi">
+              <node concept="37vLTw" id="5KXPamBpZjP" role="1sKJu8">
+                <ref role="3cqZAo" node="5KXPamBpgMm" resolve="toIndex" />
+              </node>
+              <node concept="2OqwBi" id="5KXPamBq1tI" role="1sKFgg">
+                <node concept="37vLTw" id="5KXPamBq1tJ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vWAzuEG0nA" resolve="children" />
+                </node>
+                <node concept="2KedMh" id="5KXPamBq1tK" role="2OqNvi">
+                  <node concept="37vLTw" id="5KXPamBq1tL" role="2KewY8">
+                    <ref role="3cqZAo" node="5KXPamBpgMk" resolve="fromIndex" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5KXPamBpkPK" role="3cqZAp">
+          <node concept="3clFbT" id="5KXPamBpkPM" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5KXPamBpgMx" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
