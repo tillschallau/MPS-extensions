@@ -6576,6 +6576,45 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="5KXPamDEUXG" role="jymVt">
+      <property role="TrG5h" value="removeChild" />
+      <node concept="37vLTG" id="5KXPamDEUXH" role="3clF46">
+        <property role="TrG5h" value="role" />
+        <node concept="17QB3L" id="5KXPamDEUXI" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5KXPamDEUXJ" role="3clF46">
+        <property role="TrG5h" value="index" />
+        <node concept="10Oyi0" id="5KXPamDEUXK" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="5KXPamDEUXL" role="3clF45" />
+      <node concept="3Tm1VV" id="5KXPamDEUXM" role="1B3o_S" />
+      <node concept="3clFbS" id="5KXPamDEUXO" role="3clF47">
+        <node concept="3clFbF" id="5KXPamDFgvT" role="3cqZAp">
+          <node concept="1rXfSq" id="5KXPamDFgvS" role="3clFbG">
+            <ref role="37wK5l" node="4_SQzDOeoHc" resolve="removeChild" />
+            <node concept="2OqwBi" id="5KXPamDFm9r" role="37wK5m">
+              <node concept="2OqwBi" id="5KXPamDFiQQ" role="2Oq$k0">
+                <node concept="1rXfSq" id="5KXPamDFheu" role="2Oq$k0">
+                  <ref role="37wK5l" node="4_SQzDOeoGb" resolve="getChildren" />
+                  <node concept="37vLTw" id="5KXPamDFhZ2" role="37wK5m">
+                    <ref role="3cqZAo" node="5KXPamDEUXH" resolve="role" />
+                  </node>
+                </node>
+                <node concept="7r0gD" id="5KXPamDFlav" role="2OqNvi">
+                  <node concept="37vLTw" id="5KXPamDFlha" role="7T0AP">
+                    <ref role="3cqZAo" node="5KXPamDEUXJ" resolve="index" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1uHKPH" id="5KXPamDFpYd" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5KXPamDEUXP" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="5KXPamBkZju" role="jymVt">
       <property role="TrG5h" value="tryMoveChild" />
       <node concept="37vLTG" id="5KXPamBkZjv" role="3clF46">

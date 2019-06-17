@@ -107,7 +107,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="aff2ac86-c6ad-425e-9158-df47c5315bb7(de.itemis.mps.editor.diagram2.cell)" version="0" />
-    <module reference="cafebb93-9d3c-4669-8025-707ddd589e5f(de.itemis.mps.editor.diagram2.model)" version="0" />
+    <module reference="cafebb93-9d3c-4669-8025-707ddd589e5f(de.itemis.mps.editor.diagram2.model)" version="1" />
     <module reference="95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)" version="0" />
     <module reference="18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)" version="0" />
     <module reference="ebb56408-a287-44ca-ab2d-1b6ee6850446(de.q60.mps.shadowmodels.examples.statemachine)" version="0" />

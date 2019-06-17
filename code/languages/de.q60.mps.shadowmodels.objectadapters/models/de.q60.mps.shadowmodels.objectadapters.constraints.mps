@@ -61,6 +61,9 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
     </language>
   </registry>
   <node concept="1M2fIO" id="1$T4OZGWgC0">
@@ -166,6 +169,37 @@
                 </node>
                 <node concept="2qgKlT" id="1$T4OZGZAR8" role="2OqNvi">
                   <ref role="37wK5l" to="tpcn:hEwILLp" resolve="getAggregationLinkDeclarations" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5KXPamGh4$o">
+    <ref role="1M2myG" to="xuha:5KXPamGgQXM" resolve="MappingParameterRef" />
+    <node concept="1N5Pfh" id="5KXPamGh4$p" role="1Mr941">
+      <ref role="1N5Vy1" to="xuha:5KXPamGgQXN" resolve="decl" />
+      <node concept="3dgokm" id="5KXPamGh4$r" role="1N6uqs">
+        <node concept="3clFbS" id="5KXPamGh4$s" role="2VODD2">
+          <node concept="3clFbF" id="5KXPamGh4Bp" role="3cqZAp">
+            <node concept="2YIFZM" id="5KXPamGh4Gm" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="5KXPamGh5LJ" role="37wK5m">
+                <node concept="2OqwBi" id="5KXPamGh4Wv" role="2Oq$k0">
+                  <node concept="2rP1CM" id="5KXPamGh4L7" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="5KXPamGh5mP" role="2OqNvi">
+                    <node concept="1xMEDy" id="5KXPamGh5mR" role="1xVPHs">
+                      <node concept="chp4Y" id="5KXPamGh5vC" role="ri$Ld">
+                        <ref role="cht4Q" to="xuha:1$T4OZGVZh_" resolve="ObjectMapping" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="5KXPamGh61T" role="2OqNvi">
+                  <ref role="3TtcxE" to="xuha:5KXPamGdPNz" resolve="parameters" />
                 </node>
               </node>
             </node>

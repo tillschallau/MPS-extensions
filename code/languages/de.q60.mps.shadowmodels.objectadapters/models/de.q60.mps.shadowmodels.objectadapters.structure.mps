@@ -72,6 +72,13 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1$T4OZGVZlG" resolve="IMappingContent" />
     </node>
+    <node concept="1TJgyj" id="5KXPamGdPNz" role="1TKVEi">
+      <property role="IQ2ns" value="6646702433092721891" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5KXPamGdPNu" resolve="MappingParameterDecl" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1$T4OZGVZlF">
     <property role="EcuMT" value="1817505158619198827" />
@@ -240,6 +247,60 @@
     <property role="TrG5h" value="Parameter_Subclass" />
     <property role="34LRSv" value="subclass" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="5KXPamCgWce">
+    <property role="EcuMT" value="6646702433026425614" />
+    <property role="TrG5h" value="AdapterCreator" />
+    <property role="34LRSv" value="objectAdapter" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="5KXPamChsTj" role="1TKVEi">
+      <property role="IQ2ns" value="6646702433026559571" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="mapping" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1$T4OZGVZh_" resolve="ObjectMapping" />
+    </node>
+    <node concept="1TJgyj" id="5KXPamChsTh" role="1TKVEi">
+      <property role="IQ2ns" value="6646702433026559569" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="object" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="5KXPamGeBVS" role="1TKVEi">
+      <property role="IQ2ns" value="6646702433092927224" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameterValues" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5KXPamGdPNu">
+    <property role="EcuMT" value="6646702433092721886" />
+    <property role="TrG5h" value="MappingParameterDecl" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5KXPamGdPNx" role="1TKVEi">
+      <property role="IQ2ns" value="6646702433092721889" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="5KXPamGdPNv" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5KXPamGgQXM">
+    <property role="EcuMT" value="6646702433093513074" />
+    <property role="TrG5h" value="MappingParameterRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="5KXPamGgQXN" role="1TKVEi">
+      <property role="IQ2ns" value="6646702433093513075" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="decl" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5KXPamGdPNu" resolve="MappingParameterDecl" />
+    </node>
   </node>
 </model>
 

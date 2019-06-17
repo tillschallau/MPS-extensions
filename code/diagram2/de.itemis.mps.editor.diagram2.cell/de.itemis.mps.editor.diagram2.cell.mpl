@@ -53,11 +53,15 @@
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)</dependency>
     <dependency reexport="false">1b4de353-99a5-41fe-890c-e9eea71aa7fa(de.itemis.mps.editor.diagram2.runtime)</dependency>
+    <dependency reexport="false">14eefb4d-6aaf-4f25-a16a-91126ef2fbcb(de.q60.mps.shadowmodels.sync)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:bc963c22-d419-49b6-8543-ea411eb9d3a1:de.q60.mps.polymorphicfunctions" version="0" />
     <language slang="l:96089812-effe-4a96-bb2e-75f8162046af:de.q60.mps.shadowmodels.gen.afterPF" version="0" />
     <language slang="l:6f76dbc8-9615-4a2e-8034-c27700f8983b:de.q60.mps.shadowmodels.gen.desugar" version="0" />
     <language slang="l:c6082896-edff-4380-997b-5b96de2fdc12:de.q60.mps.shadowmodels.gen.typesystem" version="0" />
+    <language slang="l:b99647f9-3b77-49fe-b86a-6f040dcf4af5:de.q60.mps.shadowmodels.objectadapters" version="0" />
     <language slang="l:94b64715-a263-4c36-a138-8da14705ffa7:de.q60.mps.shadowmodels.transformation" version="1" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -93,12 +97,13 @@
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="aff2ac86-c6ad-425e-9158-df47c5315bb7(de.itemis.mps.editor.diagram2.cell)" version="0" />
     <module reference="2f9dbb51-919a-4231-b20d-29197cc3abe6(de.itemis.mps.editor.diagram2.jgraph)" version="0" />
-    <module reference="cafebb93-9d3c-4669-8025-707ddd589e5f(de.itemis.mps.editor.diagram2.model)" version="0" />
+    <module reference="cafebb93-9d3c-4669-8025-707ddd589e5f(de.itemis.mps.editor.diagram2.model)" version="1" />
     <module reference="1b4de353-99a5-41fe-890c-e9eea71aa7fa(de.itemis.mps.editor.diagram2.runtime)" version="0" />
     <module reference="95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)" version="0" />
     <module reference="18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)" version="0" />
     <module reference="f5997610-4d27-40a3-872c-d06cf404755b(de.q60.mps.shadowmodels.genplan)" version="0" />
     <module reference="e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)" version="0" />
+    <module reference="14eefb4d-6aaf-4f25-a16a-91126ef2fbcb(de.q60.mps.shadowmodels.sync)" version="0" />
     <module reference="94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />

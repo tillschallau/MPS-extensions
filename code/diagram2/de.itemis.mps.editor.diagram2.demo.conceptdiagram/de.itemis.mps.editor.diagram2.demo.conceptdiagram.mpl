@@ -98,7 +98,7 @@
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="15769bfa-7eda-4be7-89ef-45e94f449a39(de.itemis.mps.editor.diagram2.demo.conceptdiagram)" version="0" />
     <module reference="2f9dbb51-919a-4231-b20d-29197cc3abe6(de.itemis.mps.editor.diagram2.jgraph)" version="0" />
-    <module reference="cafebb93-9d3c-4669-8025-707ddd589e5f(de.itemis.mps.editor.diagram2.model)" version="0" />
+    <module reference="cafebb93-9d3c-4669-8025-707ddd589e5f(de.itemis.mps.editor.diagram2.model)" version="1" />
     <module reference="1b4de353-99a5-41fe-890c-e9eea71aa7fa(de.itemis.mps.editor.diagram2.runtime)" version="0" />
     <module reference="95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)" version="0" />
     <module reference="18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)" version="0" />
