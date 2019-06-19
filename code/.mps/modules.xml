@@ -46,12 +46,12 @@
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.cell/de.itemis.mps.editor.diagram2.cell.mpl" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.demo.conceptdiagram/de.itemis.mps.editor.diagram2.demo.conceptdiagram.mpl" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.jgraph/de.itemis.mps.editor.diagram2.jgraph.msd" folder="shadowmodels.diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.layoutmap/de.itemis.mps.editor.diagram2.layoutmap.mpl" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.model/de.itemis.mps.editor.diagram2.model.mpl" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.runtime/de.itemis.mps.editor.diagram2.runtime.msd" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sandbox/de.itemis.mps.editor.diagram2.sandbox.msd" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sandboxlang/de.itemis.mps.editor.diagram2.sandboxlang.mpl" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sync/de.itemis.mps.editor.diagram2.sync.msd" folder="shadowmodels.diagram" />
-      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.layoutmap/de.itemis.mps.editor.diagram2.layoutmap.mpl" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.runtimelang/com.mbeddr.mpsutil.grammarcells.runtimelang.mpl" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.sandboxlang/com.mbeddr.mpsutil.grammarcells.sandboxlang.mpl" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells/com.mbeddr.mpsutil.grammarcells.mpl" folder="grammarcells" />
@@ -142,6 +142,7 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.sync/test.de.q60.mps.shadowmodels.sync.msd" folder="shadowmodels.tests" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.tool/de.itemis.mps.editor.diagram2.tool.msd" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.modelmerger.runtime/de.itemis.mps.modelmerger.runtime.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/solutions/tests.de.itemis.mps.modelmerger/tests.de.itemis.mps.modelmerger.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />

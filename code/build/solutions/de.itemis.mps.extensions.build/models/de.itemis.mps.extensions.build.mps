@@ -7740,6 +7740,88 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="4TKcxIM4sVX" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.editor.diagram2.tool" />
+        <property role="3LESm3" value="bdd95d2e-fdfe-482f-ba27-2cb6c510fc9f" />
+        <node concept="398BVA" id="4TKcxIM4t57" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4TKcxIM4tkh" role="iGT6I">
+            <property role="2Ry0Am" value="diagram2" />
+            <node concept="2Ry0Ak" id="4TKcxIM4tJJ" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.mps.editor.diagram2.tool" />
+              <node concept="2Ry0Ak" id="4TKcxIM4tYS" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.editor.diagram2.tool.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udn" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udo" role="1SiIV1">
+            <ref role="3bR37D" node="5KXPamGBV32" resolve="de.q60.mps.shadowmodels.sync" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udp" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udq" role="1SiIV1">
+            <ref role="3bR37D" node="64TsoMQT2qP" resolve="de.slisson.mps.hacks.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udr" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4uds" role="1SiIV1">
+            <ref role="3bR37D" node="1$T4OZGIkx1" resolve="de.itemis.mps.editor.diagram2.jgraph" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udt" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udu" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udv" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udw" role="1SiIV1">
+            <ref role="3bR37D" node="1$T4OZGIozA" resolve="de.itemis.mps.editor.diagram2.cell" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udx" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udy" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5HO" resolve="de.q60.mps.shadowmodels.transformation" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udz" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4ud$" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4ud_" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udA" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udB" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udC" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklPrV" resolve="de.q60.mps.incremental.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udD" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udE" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udF" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udG" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udH" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udI" role="1SiIV1">
+            <ref role="3bR37D" node="1$T4OZGIlNk" resolve="de.itemis.mps.editor.diagram2.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4TKcxIM4udJ" role="3bR37C">
+          <node concept="3bR9La" id="4TKcxIM4udK" role="1SiIV1">
+            <ref role="3bR37D" node="1$T4OZGIrkv" resolve="de.itemis.mps.editor.diagram2.model" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2G$12M" id="5L2wfmgqIEF" role="3989C9">
       <property role="TrG5h" value="de.q60.shadowmodels.web" />
