@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="ebb56408-a287-44ca-ab2d-1b6ee6850446" name="de.q60.mps.shadowmodels.examples.statemachine" version="0" />
+    <use id="8c0c0171-4d18-4f1b-823f-dd9cf7d04d0a" name="de.itemis.mps.editor.diagram2.layoutmap" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports />
@@ -30,7 +31,22 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
     </language>
+    <language id="8c0c0171-4d18-4f1b-823f-dd9cf7d04d0a" name="de.itemis.mps.editor.diagram2.layoutmap">
+      <concept id="1037808907365255973" name="de.itemis.mps.editor.diagram2.layoutmap.structure.StringEntryValue" flags="ng" index="3Emgam">
+        <property id="1037808907365255974" name="value" index="3Emgal" />
+      </concept>
+      <concept id="1037808907365034075" name="de.itemis.mps.editor.diagram2.layoutmap.structure.LayoutEntry" flags="ng" index="3Enq7C">
+        <property id="1037808907365061934" name="key" index="3En1Mt" />
+        <child id="1037808907365061938" name="value" index="3En1M1" />
+      </concept>
+      <concept id="1037808907365034074" name="de.itemis.mps.editor.diagram2.layoutmap.structure.LayoutMap" flags="ng" index="3Enq7D">
+        <child id="1037808907365034076" name="entries" index="3Enq7J" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -1300,6 +1316,248 @@
       </node>
       <node concept="02pZh" id="1$T4OZGIhAZ" role="02p66">
         <property role="TrG5h" value="s10" />
+      </node>
+      <node concept="3Enq7D" id="4TKcxILW_6h" role="lGtFl">
+        <node concept="3Enq7C" id="4TKcxILW_lQ" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727565_w" />
+          <node concept="3Emgam" id="4TKcxILW_lP" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_lS" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727565_h" />
+          <node concept="3Emgam" id="4TKcxILW_lR" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_lU" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727565_x" />
+          <node concept="3Emgam" id="4TKcxILW_lT" role="3En1M1">
+            <property role="3Emgal" value="250.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_lW" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727565_y" />
+          <node concept="3Emgam" id="4TKcxILW_lV" role="3En1M1">
+            <property role="3Emgal" value="0.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_lY" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727570_w" />
+          <node concept="3Emgam" id="4TKcxILW_lX" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_m0" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727570_h" />
+          <node concept="3Emgam" id="4TKcxILW_lZ" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_m2" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727570_x" />
+          <node concept="3Emgam" id="4TKcxILW_m1" role="3En1M1">
+            <property role="3Emgal" value="397.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_m4" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727570_y" />
+          <node concept="3Emgam" id="4TKcxILW_m3" role="3En1M1">
+            <property role="3Emgal" value="48.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_m6" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727574_w" />
+          <node concept="3Emgam" id="4TKcxILW_m5" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_m8" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727574_h" />
+          <node concept="3Emgam" id="4TKcxILW_m7" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_ma" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727574_x" />
+          <node concept="3Emgam" id="4TKcxILW_m9" role="3En1M1">
+            <property role="3Emgal" value="488.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mc" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/3384942920130727574_y" />
+          <node concept="3Emgam" id="4TKcxILW_mb" role="3En1M1">
+            <property role="3Emgal" value="173.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_me" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158614706701_w" />
+          <node concept="3Emgam" id="4TKcxILW_md" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mg" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158614706701_h" />
+          <node concept="3Emgam" id="4TKcxILW_mf" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mi" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158614706701_x" />
+          <node concept="3Emgam" id="4TKcxILW_mh" role="3En1M1">
+            <property role="3Emgal" value="488.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mk" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158614706701_y" />
+          <node concept="3Emgam" id="4TKcxILW_mj" role="3En1M1">
+            <property role="3Emgal" value="327.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mm" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603557_w" />
+          <node concept="3Emgam" id="4TKcxILW_ml" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mo" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603557_h" />
+          <node concept="3Emgam" id="4TKcxILW_mn" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mq" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603557_x" />
+          <node concept="3Emgam" id="4TKcxILW_mp" role="3En1M1">
+            <property role="3Emgal" value="397.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_ms" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603557_y" />
+          <node concept="3Emgam" id="4TKcxILW_mr" role="3En1M1">
+            <property role="3Emgal" value="452.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mu" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603573_w" />
+          <node concept="3Emgam" id="4TKcxILW_mt" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mw" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603573_h" />
+          <node concept="3Emgam" id="4TKcxILW_mv" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_my" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603573_x" />
+          <node concept="3Emgam" id="4TKcxILW_mx" role="3En1M1">
+            <property role="3Emgal" value="250.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_m$" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603573_y" />
+          <node concept="3Emgam" id="4TKcxILW_mz" role="3En1M1">
+            <property role="3Emgal" value="500.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mA" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603590_w" />
+          <node concept="3Emgam" id="4TKcxILW_m_" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mC" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603590_h" />
+          <node concept="3Emgam" id="4TKcxILW_mB" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mE" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603590_x" />
+          <node concept="3Emgam" id="4TKcxILW_mD" role="3En1M1">
+            <property role="3Emgal" value="103.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mG" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603590_y" />
+          <node concept="3Emgam" id="4TKcxILW_mF" role="3En1M1">
+            <property role="3Emgal" value="452.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mI" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603608_w" />
+          <node concept="3Emgam" id="4TKcxILW_mH" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mK" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603608_h" />
+          <node concept="3Emgam" id="4TKcxILW_mJ" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mM" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603608_x" />
+          <node concept="3Emgam" id="4TKcxILW_mL" role="3En1M1">
+            <property role="3Emgal" value="12.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mO" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603608_y" />
+          <node concept="3Emgam" id="4TKcxILW_mN" role="3En1M1">
+            <property role="3Emgal" value="327.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mQ" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603627_w" />
+          <node concept="3Emgam" id="4TKcxILW_mP" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mS" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603627_h" />
+          <node concept="3Emgam" id="4TKcxILW_mR" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mU" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603627_x" />
+          <node concept="3Emgam" id="4TKcxILW_mT" role="3En1M1">
+            <property role="3Emgal" value="12.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mW" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603627_y" />
+          <node concept="3Emgam" id="4TKcxILW_mV" role="3En1M1">
+            <property role="3Emgal" value="173.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_mY" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603647_w" />
+          <node concept="3Emgam" id="4TKcxILW_mX" role="3En1M1">
+            <property role="3Emgal" value="100.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_n0" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603647_h" />
+          <node concept="3Emgam" id="4TKcxILW_mZ" role="3En1M1">
+            <property role="3Emgal" value="30.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_n2" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603647_x" />
+          <node concept="3Emgam" id="4TKcxILW_p9" role="3En1M1">
+            <property role="3Emgal" value="290.0" />
+          </node>
+        </node>
+        <node concept="3Enq7C" id="4TKcxILW_n4" role="3Enq7J">
+          <property role="3En1Mt" value="r:534ee68e-5c6c-411b-bb4b-1cd0477349f7(de.q60.mps.shadowmodels.examples.input.statemachines)/1817505158615603647_y" />
+          <node concept="3Emgam" id="4TKcxILW_pa" role="3En1M1">
+            <property role="3Emgal" value="140.0" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

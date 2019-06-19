@@ -58,7 +58,6 @@
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW">
         <child id="7033942394258392116" name="overridenEditorComponent" index="1PM95z" />
       </concept>
-      <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
       </concept>
@@ -621,7 +620,7 @@
                             </node>
                             <node concept="2YIFZM" id="1apE37Rkv4J" role="33vP2m">
                               <ref role="37wK5l" to="yyp8:7NatPTM0nC_" resolve="getUpdater" />
-                              <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="UpdaterForEditor" />
+                              <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="TransformationEngineForEditor" />
                               <node concept="2OqwBi" id="1apE37Rkv4K" role="37wK5m">
                                 <node concept="37vLTw" id="TB2rf$99qh" role="2Oq$k0">
                                   <ref role="3cqZAo" node="1apE37RjLuF" resolve="editorContext" />
@@ -973,10 +972,6 @@
     <node concept="1PE4EZ" id="30TKBrKZpUy" role="1PM95z">
       <ref role="1PE7su" to="h66c:30TKBrK52a3" resolve="VertexContent" />
     </node>
-  </node>
-  <node concept="24kQdi" id="35N923AqOpR">
-    <ref role="1XX52x" to="zp9m:TB2rf$eExq" resolve="LayoutMap" />
-    <node concept="2SsqMj" id="35N923AqOqD" role="2wV5jI" />
   </node>
 </model>
 

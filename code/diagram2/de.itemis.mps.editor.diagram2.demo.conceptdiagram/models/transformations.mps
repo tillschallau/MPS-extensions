@@ -17,6 +17,8 @@
     <import index="zp9m" ref="r:f4dba0e4-993d-400e-b88f-a684e19c3cc4(de.itemis.mps.editor.diagram2.demo.conceptdiagram.structure)" />
     <import index="l2ob" ref="r:518644ca-c766-4773-a182-a1b8aa3a44ca(de.itemis.mps.editor.diagram2.demo.conceptdiagram.behavior)" />
     <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
+    <import index="otyl" ref="r:4aa076d4-4da7-4962-9d24-6bd588c0bdce(de.itemis.mps.editor.diagram2.layoutmap.behavior)" />
+    <import index="1odc" ref="r:6b6fa058-6306-4f67-96c2-b35a3f327ec5(de.itemis.mps.editor.diagram2.layoutmap.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -501,14 +503,14 @@
                     <node concept="3clFbF" id="3ytz0M0ukbP" role="3cqZAp">
                       <node concept="2OqwBi" id="3ytz0M0ukbQ" role="3clFbG">
                         <node concept="2YIFZM" id="3ytz0M0ukbR" role="2Oq$k0">
-                          <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
-                          <ref role="37wK5l" to="l2ob:6N6zH_hXLmu" resolve="getInstance" />
+                          <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                          <ref role="37wK5l" to="otyl:6N6zH_hXLmu" resolve="getInstance" />
                           <node concept="2OqwBi" id="3ytz0M0ukbS" role="37wK5m">
                             <node concept="35c_gC" id="3ytz0M0ukbT" role="2Oq$k0">
-                              <ref role="35c_gD" to="zp9m:TB2rf$eExq" resolve="LayoutMap" />
+                              <ref role="35c_gD" to="1odc:TB2rf$eExq" resolve="LayoutMap" />
                             </node>
                             <node concept="2qgKlT" id="3ytz0M0ukbU" role="2OqNvi">
-                              <ref role="37wK5l" to="l2ob:TB2rf$fd1G" resolve="getOrCreate" />
+                              <ref role="37wK5l" to="otyl:TB2rf$fd1G" resolve="getOrCreate" />
                               <node concept="2155sH" id="3ytz0M0ukbV" role="37wK5m">
                                 <ref role="2155sG" node="3ytz0M0ukaO" resolve="layoutOwner" />
                               </node>
@@ -516,7 +518,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="3ytz0M0ukbW" role="2OqNvi">
-                          <ref role="37wK5l" to="l2ob:6N6zH_i1$KU" resolve="putString" />
+                          <ref role="37wK5l" to="otyl:6N6zH_i1$KU" resolve="putString" />
                           <node concept="3cpWs3" id="3ytz0M0ukbX" role="37wK5m">
                             <node concept="Xl_RD" id="3ytz0M0ukbY" role="3uHU7w">
                               <property role="Xl_RC" value="_x" />
@@ -537,14 +539,14 @@
                 </node>
                 <node concept="2OqwBi" id="3ytz0M0ukc2" role="027of">
                   <node concept="2YIFZM" id="3ytz0M0ukc3" role="2Oq$k0">
-                    <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
-                    <ref role="37wK5l" to="l2ob:6N6zH_i1LRB" resolve="getInstanceForOwner" />
+                    <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                    <ref role="37wK5l" to="otyl:6N6zH_i1LRB" resolve="getInstanceForOwner" />
                     <node concept="2155sH" id="3ytz0M0ukc4" role="37wK5m">
                       <ref role="2155sG" node="3ytz0M0ukaO" resolve="layoutOwner" />
                     </node>
                   </node>
                   <node concept="liA8E" id="3ytz0M0ukc5" role="2OqNvi">
-                    <ref role="37wK5l" to="l2ob:6N6zH_i1VZt" resolve="getString" />
+                    <ref role="37wK5l" to="otyl:6N6zH_i1VZt" resolve="getString" />
                     <node concept="3cpWs3" id="3ytz0M0ukc6" role="37wK5m">
                       <node concept="Xl_RD" id="3ytz0M0ukc7" role="3uHU7w">
                         <property role="Xl_RC" value="_x" />
@@ -570,14 +572,14 @@
                     <node concept="3clFbF" id="3ytz0M0ukce" role="3cqZAp">
                       <node concept="2OqwBi" id="3ytz0M0ukcf" role="3clFbG">
                         <node concept="2YIFZM" id="3ytz0M0ukcg" role="2Oq$k0">
-                          <ref role="37wK5l" to="l2ob:6N6zH_hXLmu" resolve="getInstance" />
-                          <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                          <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                          <ref role="37wK5l" to="otyl:6N6zH_hXLmu" resolve="getInstance" />
                           <node concept="2OqwBi" id="3ytz0M0ukch" role="37wK5m">
                             <node concept="35c_gC" id="3ytz0M0ukci" role="2Oq$k0">
-                              <ref role="35c_gD" to="zp9m:TB2rf$eExq" resolve="LayoutMap" />
+                              <ref role="35c_gD" to="1odc:TB2rf$eExq" resolve="LayoutMap" />
                             </node>
                             <node concept="2qgKlT" id="3ytz0M0ukcj" role="2OqNvi">
-                              <ref role="37wK5l" to="l2ob:TB2rf$fd1G" resolve="getOrCreate" />
+                              <ref role="37wK5l" to="otyl:TB2rf$fd1G" resolve="getOrCreate" />
                               <node concept="2155sH" id="3ytz0M0ukck" role="37wK5m">
                                 <ref role="2155sG" node="3ytz0M0ukaO" resolve="layoutOwner" />
                               </node>
@@ -585,7 +587,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="3ytz0M0ukcl" role="2OqNvi">
-                          <ref role="37wK5l" to="l2ob:6N6zH_i1$KU" resolve="putString" />
+                          <ref role="37wK5l" to="otyl:6N6zH_i1$KU" resolve="putString" />
                           <node concept="3cpWs3" id="3ytz0M0ukcm" role="37wK5m">
                             <node concept="Xl_RD" id="3ytz0M0ukcn" role="3uHU7w">
                               <property role="Xl_RC" value="_y" />
@@ -606,14 +608,14 @@
                 </node>
                 <node concept="2OqwBi" id="3ytz0M0ukcr" role="027of">
                   <node concept="2YIFZM" id="3ytz0M0ukcs" role="2Oq$k0">
-                    <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
-                    <ref role="37wK5l" to="l2ob:6N6zH_i1LRB" resolve="getInstanceForOwner" />
+                    <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                    <ref role="37wK5l" to="otyl:6N6zH_i1LRB" resolve="getInstanceForOwner" />
                     <node concept="2155sH" id="3ytz0M0ukct" role="37wK5m">
                       <ref role="2155sG" node="3ytz0M0ukaO" resolve="layoutOwner" />
                     </node>
                   </node>
                   <node concept="liA8E" id="3ytz0M0ukcu" role="2OqNvi">
-                    <ref role="37wK5l" to="l2ob:6N6zH_i1VZt" resolve="getString" />
+                    <ref role="37wK5l" to="otyl:6N6zH_i1VZt" resolve="getString" />
                     <node concept="3cpWs3" id="3ytz0M0ukcv" role="37wK5m">
                       <node concept="Xl_RD" id="3ytz0M0ukcw" role="3uHU7w">
                         <property role="Xl_RC" value="_y" />
@@ -639,14 +641,14 @@
                     <node concept="3clFbF" id="3ytz0M0ukcB" role="3cqZAp">
                       <node concept="2OqwBi" id="3ytz0M0ukcC" role="3clFbG">
                         <node concept="2YIFZM" id="3ytz0M0ukcD" role="2Oq$k0">
-                          <ref role="37wK5l" to="l2ob:6N6zH_hXLmu" resolve="getInstance" />
-                          <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                          <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                          <ref role="37wK5l" to="otyl:6N6zH_hXLmu" resolve="getInstance" />
                           <node concept="2OqwBi" id="3ytz0M0ukcE" role="37wK5m">
                             <node concept="35c_gC" id="3ytz0M0ukcF" role="2Oq$k0">
-                              <ref role="35c_gD" to="zp9m:TB2rf$eExq" resolve="LayoutMap" />
+                              <ref role="35c_gD" to="1odc:TB2rf$eExq" resolve="LayoutMap" />
                             </node>
                             <node concept="2qgKlT" id="3ytz0M0ukcG" role="2OqNvi">
-                              <ref role="37wK5l" to="l2ob:TB2rf$fd1G" resolve="getOrCreate" />
+                              <ref role="37wK5l" to="otyl:TB2rf$fd1G" resolve="getOrCreate" />
                               <node concept="2155sH" id="3ytz0M0ukcH" role="37wK5m">
                                 <ref role="2155sG" node="3ytz0M0ukaO" resolve="layoutOwner" />
                               </node>
@@ -654,7 +656,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="3ytz0M0ukcI" role="2OqNvi">
-                          <ref role="37wK5l" to="l2ob:6N6zH_i1$KU" resolve="putString" />
+                          <ref role="37wK5l" to="otyl:6N6zH_i1$KU" resolve="putString" />
                           <node concept="3cpWs3" id="3ytz0M0ukcJ" role="37wK5m">
                             <node concept="Xl_RD" id="3ytz0M0ukcK" role="3uHU7w">
                               <property role="Xl_RC" value="_w" />
@@ -675,14 +677,14 @@
                 </node>
                 <node concept="2OqwBi" id="3ytz0M0ukcO" role="027of">
                   <node concept="2YIFZM" id="3ytz0M0ukcP" role="2Oq$k0">
-                    <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
-                    <ref role="37wK5l" to="l2ob:6N6zH_i1LRB" resolve="getInstanceForOwner" />
+                    <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                    <ref role="37wK5l" to="otyl:6N6zH_i1LRB" resolve="getInstanceForOwner" />
                     <node concept="2155sH" id="3ytz0M0ukcQ" role="37wK5m">
                       <ref role="2155sG" node="3ytz0M0ukaO" resolve="layoutOwner" />
                     </node>
                   </node>
                   <node concept="liA8E" id="3ytz0M0ukcR" role="2OqNvi">
-                    <ref role="37wK5l" to="l2ob:6N6zH_i1VZt" resolve="getString" />
+                    <ref role="37wK5l" to="otyl:6N6zH_i1VZt" resolve="getString" />
                     <node concept="3cpWs3" id="3ytz0M0ukcS" role="37wK5m">
                       <node concept="Xl_RD" id="3ytz0M0ukcT" role="3uHU7w">
                         <property role="Xl_RC" value="_w" />
@@ -708,14 +710,14 @@
                     <node concept="3clFbF" id="3ytz0M0ukd0" role="3cqZAp">
                       <node concept="2OqwBi" id="3ytz0M0ukd1" role="3clFbG">
                         <node concept="2YIFZM" id="3ytz0M0ukd2" role="2Oq$k0">
-                          <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
-                          <ref role="37wK5l" to="l2ob:6N6zH_hXLmu" resolve="getInstance" />
+                          <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                          <ref role="37wK5l" to="otyl:6N6zH_hXLmu" resolve="getInstance" />
                           <node concept="2OqwBi" id="3ytz0M0ukd3" role="37wK5m">
                             <node concept="35c_gC" id="3ytz0M0ukd4" role="2Oq$k0">
-                              <ref role="35c_gD" to="zp9m:TB2rf$eExq" resolve="LayoutMap" />
+                              <ref role="35c_gD" to="1odc:TB2rf$eExq" resolve="LayoutMap" />
                             </node>
                             <node concept="2qgKlT" id="3ytz0M0ukd5" role="2OqNvi">
-                              <ref role="37wK5l" to="l2ob:TB2rf$fd1G" resolve="getOrCreate" />
+                              <ref role="37wK5l" to="otyl:TB2rf$fd1G" resolve="getOrCreate" />
                               <node concept="2155sH" id="3ytz0M0ukd6" role="37wK5m">
                                 <ref role="2155sG" node="3ytz0M0ukaO" resolve="layoutOwner" />
                               </node>
@@ -723,7 +725,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="3ytz0M0ukd7" role="2OqNvi">
-                          <ref role="37wK5l" to="l2ob:6N6zH_i1$KU" resolve="putString" />
+                          <ref role="37wK5l" to="otyl:6N6zH_i1$KU" resolve="putString" />
                           <node concept="3cpWs3" id="3ytz0M0ukd8" role="37wK5m">
                             <node concept="Xl_RD" id="3ytz0M0ukd9" role="3uHU7w">
                               <property role="Xl_RC" value="_h" />
@@ -744,14 +746,14 @@
                 </node>
                 <node concept="2OqwBi" id="3ytz0M0ukdd" role="027of">
                   <node concept="2YIFZM" id="3ytz0M0ukde" role="2Oq$k0">
-                    <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
-                    <ref role="37wK5l" to="l2ob:6N6zH_i1LRB" resolve="getInstanceForOwner" />
+                    <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                    <ref role="37wK5l" to="otyl:6N6zH_i1LRB" resolve="getInstanceForOwner" />
                     <node concept="2155sH" id="3ytz0M0ukdf" role="37wK5m">
                       <ref role="2155sG" node="3ytz0M0ukaO" resolve="layoutOwner" />
                     </node>
                   </node>
                   <node concept="liA8E" id="3ytz0M0ukdg" role="2OqNvi">
-                    <ref role="37wK5l" to="l2ob:6N6zH_i1VZt" resolve="getString" />
+                    <ref role="37wK5l" to="otyl:6N6zH_i1VZt" resolve="getString" />
                     <node concept="3cpWs3" id="3ytz0M0ukdh" role="37wK5m">
                       <node concept="Xl_RD" id="3ytz0M0ukdi" role="3uHU7w">
                         <property role="Xl_RC" value="_h" />
@@ -996,14 +998,14 @@
                 <node concept="1XuIBW" id="3ytz0M0up1l" role="027rp">
                   <node concept="2OqwBi" id="3ytz0M0up1m" role="1XuIBT">
                     <node concept="2YIFZM" id="3ytz0M0up1n" role="2Oq$k0">
-                      <ref role="37wK5l" to="l2ob:6N6zH_i1LRB" resolve="getInstanceForOwner" />
-                      <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                      <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                      <ref role="37wK5l" to="otyl:6N6zH_i1LRB" resolve="getInstanceForOwner" />
                       <node concept="2155sH" id="3ytz0M0up1o" role="37wK5m">
                         <ref role="2155sG" node="3ytz0M0upYP" resolve="layoutOwner" />
                       </node>
                     </node>
                     <node concept="liA8E" id="3ytz0M0up1p" role="2OqNvi">
-                      <ref role="37wK5l" to="l2ob:6N6zH_i1moA" resolve="getValue" />
+                      <ref role="37wK5l" to="otyl:6N6zH_i1moA" resolve="getValue" />
                       <node concept="3cpWs3" id="3ytz0M0up1q" role="37wK5m">
                         <node concept="Xl_RD" id="3ytz0M0up1r" role="3uHU7w">
                           <property role="Xl_RC" value="_points" />
@@ -1044,17 +1046,17 @@
                       <node concept="3cpWsn" id="3ytz0M0up1C" role="3cpWs9">
                         <property role="TrG5h" value="map" />
                         <node concept="3uibUv" id="3ytz0M0up1D" role="1tU5fm">
-                          <ref role="3uigEE" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                          <ref role="3uigEE" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
                         </node>
                         <node concept="2YIFZM" id="3ytz0M0up1E" role="33vP2m">
-                          <ref role="37wK5l" to="l2ob:6N6zH_hXLmu" resolve="getInstance" />
-                          <ref role="1Pybhc" to="l2ob:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                          <ref role="1Pybhc" to="otyl:6N6zH_hXL7l" resolve="LayoutMapCache" />
+                          <ref role="37wK5l" to="otyl:6N6zH_hXLmu" resolve="getInstance" />
                           <node concept="2OqwBi" id="3ytz0M0up1F" role="37wK5m">
                             <node concept="35c_gC" id="3ytz0M0up1G" role="2Oq$k0">
-                              <ref role="35c_gD" to="zp9m:TB2rf$eExq" resolve="LayoutMap" />
+                              <ref role="35c_gD" to="1odc:TB2rf$eExq" resolve="LayoutMap" />
                             </node>
                             <node concept="2qgKlT" id="3ytz0M0up1H" role="2OqNvi">
-                              <ref role="37wK5l" to="l2ob:TB2rf$fd1G" resolve="getOrCreate" />
+                              <ref role="37wK5l" to="otyl:TB2rf$fd1G" resolve="getOrCreate" />
                               <node concept="2155sH" id="3ytz0M0up1I" role="37wK5m">
                                 <ref role="2155sG" node="3ytz0M0upYP" resolve="layoutOwner" />
                               </node>
@@ -1121,7 +1123,7 @@
                           <ref role="3cqZAo" node="3ytz0M0up1C" resolve="map" />
                         </node>
                         <node concept="liA8E" id="3ytz0M0up26" role="2OqNvi">
-                          <ref role="37wK5l" to="l2ob:6N6zH_i1qEB" resolve="putValue" />
+                          <ref role="37wK5l" to="otyl:6N6zH_i1qEB" resolve="putValue" />
                           <node concept="37vLTw" id="3ytz0M0up27" role="37wK5m">
                             <ref role="3cqZAo" node="3ytz0M0up1K" resolve="key" />
                           </node>

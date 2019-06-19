@@ -57,6 +57,7 @@
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">cafebb93-9d3c-4669-8025-707ddd589e5f(de.itemis.mps.editor.diagram2.model)</dependency>
     <dependency reexport="false">aff2ac86-c6ad-425e-9158-df47c5315bb7(de.itemis.mps.editor.diagram2.cell)</dependency>
+    <dependency reexport="false">8c0c0171-4d18-4f1b-823f-dd9cf7d04d0a(de.itemis.mps.editor.diagram2.layoutmap)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:96089812-effe-4a96-bb2e-75f8162046af:de.q60.mps.shadowmodels.gen.afterPF" version="0" />
@@ -107,6 +108,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="aff2ac86-c6ad-425e-9158-df47c5315bb7(de.itemis.mps.editor.diagram2.cell)" version="0" />
+    <module reference="8c0c0171-4d18-4f1b-823f-dd9cf7d04d0a(de.itemis.mps.editor.diagram2.layoutmap)" version="0" />
     <module reference="cafebb93-9d3c-4669-8025-707ddd589e5f(de.itemis.mps.editor.diagram2.model)" version="1" />
     <module reference="95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)" version="0" />
     <module reference="18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)" version="0" />

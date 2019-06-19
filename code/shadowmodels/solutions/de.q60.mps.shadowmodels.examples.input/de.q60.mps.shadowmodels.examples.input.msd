@@ -10,6 +10,7 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:8c0c0171-4d18-4f1b-823f-dd9cf7d04d0a:de.itemis.mps.editor.diagram2.layoutmap" version="0" />
     <language slang="l:66825d3a-38b0-4346-8da1-1f85e007e4ed:de.q60.mps.delta.unification.test.entities" version="0" />
     <language slang="l:bbb5f4e2-794a-4b91-bd27-caf7d437ac9e:de.q60.mps.shadowmodels.examples.blext" version="0" />
     <language slang="l:ca32b5fa-caea-4f97-9686-6f60d4d677d4:de.q60.mps.shadowmodels.examples.entities" version="0" />

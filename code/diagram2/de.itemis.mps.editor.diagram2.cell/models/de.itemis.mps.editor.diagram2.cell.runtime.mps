@@ -847,23 +847,46 @@
                             <node concept="1QHqEO" id="TB2rf$9kDl" role="3cqZAp">
                               <node concept="1QHqEC" id="TB2rf$9kDn" role="1QHqEI">
                                 <node concept="3clFbS" id="TB2rf$9kDp" role="1bW5cS">
-                                  <node concept="3clFbF" id="TB2rf$8VTb" role="3cqZAp">
-                                    <node concept="2OqwBi" id="TB2rf$8WeX" role="3clFbG">
-                                      <node concept="2ShNRf" id="TB2rf$8VT7" role="2Oq$k0">
-                                        <node concept="1pGfFk" id="TB2rf$8W6I" role="2ShVmc">
-                                          <ref role="37wK5l" to="jz0w:30TKBrL21W8" resolve="GraphWriter" />
-                                          <node concept="37vLTw" id="TB2rf$9a_b" role="37wK5m">
-                                            <ref role="3cqZAo" node="1$T4OZGuzaQ" resolve="editorContext" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                      <node concept="liA8E" id="TB2rf$8Wol" role="2OqNvi">
-                                        <ref role="37wK5l" to="jz0w:30TKBrL21WB" resolve="writeGraph" />
-                                        <node concept="37vLTw" id="TB2rf$8WrI" role="37wK5m">
+                                  <node concept="3clFbF" id="4TKcxILz99j" role="3cqZAp">
+                                    <node concept="2M0cAz" id="4TKcxILz99k" role="3clFbG">
+                                      <ref role="2M0c$$" to="rku2:1$T4OZH8r_o" resolve="synchronizeGraph" />
+                                      <node concept="3OvxuF" id="4TKcxILz99m" role="2M0c$y">
+                                        <ref role="3Ou1FQ" node="1$T4OZGWa5G" />
+                                        <node concept="37vLTw" id="4TKcxILz99n" role="3Ou1FO">
                                           <ref role="3cqZAo" node="1apE37RjLKt" resolve="graph" />
                                         </node>
-                                        <node concept="37vLTw" id="TB2rf$96pT" role="37wK5m">
+                                      </node>
+                                      <node concept="2YIFZM" id="4TKcxILzzef" role="2M0c$y">
+                                        <ref role="37wK5l" to="l6bp:3ECE8iPOQCm" resolve="unwrap" />
+                                        <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="ANode" />
+                                        <node concept="37vLTw" id="4TKcxILzzqP" role="37wK5m">
                                           <ref role="3cqZAo" node="1apE37RkEQZ" resolve="graphData" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbH" id="4TKcxILz9J$" role="3cqZAp" />
+                                  <node concept="1X3_iC" id="4TKcxILz9Pg" role="lGtFl">
+                                    <property role="3V$3am" value="statement" />
+                                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                                    <node concept="3clFbF" id="TB2rf$8VTb" role="8Wnug">
+                                      <node concept="2OqwBi" id="TB2rf$8WeX" role="3clFbG">
+                                        <node concept="2ShNRf" id="TB2rf$8VT7" role="2Oq$k0">
+                                          <node concept="1pGfFk" id="TB2rf$8W6I" role="2ShVmc">
+                                            <ref role="37wK5l" to="jz0w:30TKBrL21W8" resolve="GraphWriter" />
+                                            <node concept="37vLTw" id="TB2rf$9a_b" role="37wK5m">
+                                              <ref role="3cqZAo" node="1$T4OZGuzaQ" resolve="editorContext" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="liA8E" id="TB2rf$8Wol" role="2OqNvi">
+                                          <ref role="37wK5l" to="jz0w:30TKBrL21WB" resolve="writeGraph" />
+                                          <node concept="37vLTw" id="TB2rf$8WrI" role="37wK5m">
+                                            <ref role="3cqZAo" node="1apE37RjLKt" resolve="graph" />
+                                          </node>
+                                          <node concept="37vLTw" id="TB2rf$96pT" role="37wK5m">
+                                            <ref role="3cqZAo" node="1apE37RkEQZ" resolve="graphData" />
+                                          </node>
                                         </node>
                                       </node>
                                     </node>
