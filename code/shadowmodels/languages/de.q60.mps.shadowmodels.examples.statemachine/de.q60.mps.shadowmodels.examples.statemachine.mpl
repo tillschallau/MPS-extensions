@@ -58,8 +58,10 @@
     <dependency reexport="false">cafebb93-9d3c-4669-8025-707ddd589e5f(de.itemis.mps.editor.diagram2.model)</dependency>
     <dependency reexport="false">aff2ac86-c6ad-425e-9158-df47c5315bb7(de.itemis.mps.editor.diagram2.cell)</dependency>
     <dependency reexport="false">8c0c0171-4d18-4f1b-823f-dd9cf7d04d0a(de.itemis.mps.editor.diagram2.layoutmap)</dependency>
+    <dependency reexport="false">14eefb4d-6aaf-4f25-a16a-91126ef2fbcb(de.q60.mps.shadowmodels.sync)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:bc963c22-d419-49b6-8543-ea411eb9d3a1:de.q60.mps.polymorphicfunctions" version="0" />
     <language slang="l:96089812-effe-4a96-bb2e-75f8162046af:de.q60.mps.shadowmodels.gen.afterPF" version="0" />
     <language slang="l:6f76dbc8-9615-4a2e-8034-c27700f8983b:de.q60.mps.shadowmodels.gen.desugar" version="0" />
     <language slang="l:c6082896-edff-4380-997b-5b96de2fdc12:de.q60.mps.shadowmodels.gen.typesystem" version="-1" />
@@ -117,6 +119,7 @@
     <module reference="fdda8484-fc57-4faa-9059-032e2b8b648f(de.q60.mps.shadowmodels.repository)" version="0" />
     <module reference="e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)" version="0" />
     <module reference="0bf7bc3b-b11d-42e4-b160-93d72af96397(de.q60.mps.shadowmodels.runtimelang)" version="0" />
+    <module reference="14eefb4d-6aaf-4f25-a16a-91126ef2fbcb(de.q60.mps.shadowmodels.sync)" version="0" />
     <module reference="9826ee01-d0ba-4048-a622-61eda9424397(de.q60.mps.shadowmodels.target.editor)" version="0" />
     <module reference="94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />

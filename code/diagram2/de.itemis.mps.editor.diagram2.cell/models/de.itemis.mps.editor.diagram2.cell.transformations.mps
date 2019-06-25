@@ -299,7 +299,7 @@
                           <node concept="027oh" id="3ytz0M0ukbG" role="02LM9">
                             <ref role="027oj" to="6w3k:KgMRc3B9a1" resolve="style" />
                             <node concept="Xl_RD" id="3ytz0M0ukbH" role="027of">
-                              <property role="Xl_RC" value="" />
+                              <property role="Xl_RC" value="fillColor=red;fontColor=white" />
                             </node>
                             <node concept="3EkmR2" id="3ytz0M0ukbI" role="3EkvFU">
                               <node concept="3clFbS" id="3ytz0M0ukbJ" role="2VODD2" />
