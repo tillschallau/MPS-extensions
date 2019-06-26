@@ -59,6 +59,7 @@
     <dependency reexport="false">aff2ac86-c6ad-425e-9158-df47c5315bb7(de.itemis.mps.editor.diagram2.cell)</dependency>
     <dependency reexport="false">8c0c0171-4d18-4f1b-823f-dd9cf7d04d0a(de.itemis.mps.editor.diagram2.layoutmap)</dependency>
     <dependency reexport="false">14eefb4d-6aaf-4f25-a16a-91126ef2fbcb(de.q60.mps.shadowmodels.sync)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:bc963c22-d419-49b6-8543-ea411eb9d3a1:de.q60.mps.polymorphicfunctions" version="0" />

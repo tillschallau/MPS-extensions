@@ -902,6 +902,37 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="4AegEGCsDPv" role="jymVt">
+      <property role="TrG5h" value="tryMoveChild" />
+      <node concept="37vLTG" id="4AegEGCsDPw" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3uibUv" id="4AegEGCsDPx" role="1tU5fm">
+          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4AegEGCsDPy" role="3clF46">
+        <property role="TrG5h" value="role" />
+        <node concept="17QB3L" id="4AegEGCsDPz" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4AegEGCsDP$" role="3clF46">
+        <property role="TrG5h" value="index" />
+        <node concept="10Oyi0" id="4AegEGCsDP_" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="4AegEGCsDPA" role="3clF45" />
+      <node concept="3Tm1VV" id="4AegEGCsDPB" role="1B3o_S" />
+      <node concept="3clFbS" id="4AegEGCsDPD" role="3clF47">
+        <node concept="YS8fn" id="4AegEGCsH2h" role="3cqZAp">
+          <node concept="2ShNRf" id="4AegEGCsH2i" role="YScLw">
+            <node concept="1pGfFk" id="4AegEGCsH2j" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4AegEGCsDPE" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="qmkA5fOOYl" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getAllChildren" />
