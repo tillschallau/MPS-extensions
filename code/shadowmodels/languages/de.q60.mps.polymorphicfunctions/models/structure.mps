@@ -117,6 +117,9 @@
     <node concept="PrWs8" id="1upvoB3RW5u" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="5YSMZford2T" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hqLv6T6" resolve="IResolveInfo" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1upvoB3Sm56">
     <property role="EcuMT" value="1700528364959392070" />
@@ -175,6 +178,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="parameterValues" />
       <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="5YSMZfoMC0o" role="1TKVEi">
+      <property role="IQ2ns" value="6897487077492555800" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="context" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="3jJoUQ6VUE9" role="1TKVEi">

@@ -40,6 +40,10 @@
       </node>
     </node>
     <node concept="2VgMA2" id="2WBbN6NEgss" role="2VgMA7">
+      <node concept="2V$Bhx" id="5YSMZfog1cZ" role="1t_9vn">
+        <property role="2V$B1T" value="14eefb4d-6aaf-4f25-a16a-91126ef2fbcb" />
+        <property role="2V$B1Q" value="de.q60.mps.shadowmodels.sync" />
+      </node>
       <node concept="2V$Bhx" id="2WBbN6NEgsO" role="1t_9vn">
         <property role="2V$B1T" value="94b64715-a263-4c36-a138-8da14705ffa7" />
         <property role="2V$B1Q" value="de.q60.mps.shadowmodel.transformation" />

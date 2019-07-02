@@ -12,6 +12,8 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="ktej" ref="r:714ff533-7bce-419a-ac31-d6604ab96b12(de.q60.mps.shadowmodels.sync.runtime)" />
+    <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -168,6 +170,7 @@
         <child id="1700528364959226185" name="content" index="3khUj0" />
       </concept>
       <concept id="1700528364959224885" name="de.q60.mps.polymorphicfunctions.structure.PolymorphicFunctionDeclaration" flags="ng" index="3khUAW">
+        <property id="6393752169615662762" name="multiple" index="1rq3kj" />
         <child id="1700528364959325766" name="parameters" index="3kuiff" />
         <child id="1700528364959690262" name="returnBaseType" index="3kv9ev" />
       </concept>
@@ -1766,6 +1769,28 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1$T4OZH8eqd" role="1B3o_S" />
+  </node>
+  <node concept="3khU$T" id="5YSMZfofGed">
+    <property role="TrG5h" value="Mapping" />
+    <node concept="3khUF5" id="5YSMZfofGee" role="3khUj0" />
+    <node concept="3khUAW" id="5YSMZfofGeh" role="3khUj0">
+      <property role="TrG5h" value="collectRootMappings" />
+      <property role="1rq3kj" value="true" />
+      <node concept="3khFPE" id="5YSMZfor7w4" role="3kuiff">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="5YSMZfor7wf" role="3khFNH">
+          <ref role="3uigEE" to="ktej:5YSMZfoqIa3" resolve="SyncContext" />
+        </node>
+      </node>
+      <node concept="3khFPE" id="5YSMZfofGw2" role="3kuiff">
+        <property role="TrG5h" value="repository" />
+        <node concept="3Tqbb2" id="5YSMZfotKPr" role="3khFNH">
+          <ref role="ehGHo" to="dj5d:qmkA5fOskm" resolve="Repository" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5YSMZfoqMQN" role="3kv9ev" />
+    </node>
+    <node concept="3khUF5" id="5YSMZfofGef" role="3khUj0" />
   </node>
 </model>
 

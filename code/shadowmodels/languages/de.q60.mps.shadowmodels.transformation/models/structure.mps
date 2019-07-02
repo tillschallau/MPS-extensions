@@ -981,12 +981,6 @@
       <ref role="PrY4T" node="6ndA7L_Lbyk" resolve="ITransformationParameterType" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1HMbik_FiMj">
-    <property role="EcuMT" value="1977692823938215059" />
-    <property role="TrG5h" value="RepositoryExpression" />
-    <property role="34LRSv" value="repository" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-  </node>
   <node concept="1TIwiD" id="4wrAhqcD12T">
     <property role="EcuMT" value="5195914917229891769" />
     <property role="3GE5qa" value="macros.copy" />

@@ -15,6 +15,7 @@
     <language slang="l:bbb5f4e2-794a-4b91-bd27-caf7d437ac9e:de.q60.mps.shadowmodels.examples.blext" version="0" />
     <language slang="l:ca32b5fa-caea-4f97-9686-6f60d4d677d4:de.q60.mps.shadowmodels.examples.entities" version="0" />
     <language slang="l:e338ecf2-0845-499a-be53-35713f291278:de.q60.mps.shadowmodels.examples.expext" version="0" />
+    <language slang="l:b853910d-bfaa-4f6b-af83-f1ff505dc292:de.q60.mps.shadowmodels.examples.language" version="0" />
     <language slang="l:ebb56408-a287-44ca-ab2d-1b6ee6850446:de.q60.mps.shadowmodels.examples.statemachine" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />

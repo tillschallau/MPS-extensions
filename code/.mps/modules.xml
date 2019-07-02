@@ -52,6 +52,7 @@
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sandbox/de.itemis.mps.editor.diagram2.sandbox.msd" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sandboxlang/de.itemis.mps.editor.diagram2.sandboxlang.mpl" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.sync/de.itemis.mps.editor.diagram2.sync.msd" folder="shadowmodels.diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.tool/de.itemis.mps.editor.diagram2.tool.msd" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.runtimelang/com.mbeddr.mpsutil.grammarcells.runtimelang.mpl" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells.sandboxlang/com.mbeddr.mpsutil.grammarcells.sandboxlang.mpl" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/languages/com.mbeddr.mpsutil.grammarcells/com.mbeddr.mpsutil.grammarcells.mpl" folder="grammarcells" />
@@ -66,6 +67,7 @@
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
+      <modulePath path="$PROJECT_DIR$/languages/de.q60.mps.shadowmodels.examples.language/de.q60.mps.shadowmodels.examples.language.mpl" folder="shadowmodels.examples" />
       <modulePath path="$PROJECT_DIR$/languages/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.demolang/de.itemis.mps.editor.math.demolang.mpl" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.java/de.itemis.mps.editor.math.java.mpl" folder="math" />
@@ -134,6 +136,7 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.genplan/de.q60.mps.shadowmodels.genplan.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.modelcheck.runtime/de.q60.mps.shadowmodels.modelcheck.runtime.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.runtime/de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.core" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.sync.runtime/de.q60.mps.shadowmodels.sync.runtime.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.web.lib/de.q60.mps.shadowmodels.web.lib.msd" folder="shadowmodels.web" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.web.server/de.q60.mps.shadowmodels.web.server.msd" folder="shadowmodels.web" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.virtualinterfaces.genplan/de.q60.mps.virtualinterfaces.genplan.msd" folder="shadowmodels.virtualinterfaces" />
@@ -142,7 +145,6 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.sync/test.de.q60.mps.shadowmodels.sync.msd" folder="shadowmodels.tests" />
-      <modulePath path="$PROJECT_DIR$/diagram2/de.itemis.mps.editor.diagram2.tool/de.itemis.mps.editor.diagram2.tool.msd" folder="shadowmodels.diagram" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.modelmerger.runtime/de.itemis.mps.modelmerger.runtime.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/solutions/tests.de.itemis.mps.modelmerger/tests.de.itemis.mps.modelmerger.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />

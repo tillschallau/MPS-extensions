@@ -166,9 +166,6 @@
       <concept id="8182547171709752110" name="jetbrains.mps.lang.quotation.structure.NodeBuilderExpression" flags="nn" index="36biLy">
         <child id="8182547171709752112" name="expression" index="36biLW" />
       </concept>
-      <concept id="8182547171709614739" name="jetbrains.mps.lang.quotation.structure.NodeBuilderRef" flags="nn" index="36bGnv">
-        <reference id="8182547171709614741" name="target" index="36bGnp" />
-      </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
@@ -2189,37 +2186,6 @@
     <node concept="1YaCAy" id="3zTK92L$ylW" role="1YuTPh">
       <property role="TrG5h" value="n" />
       <ref role="1YaFvo" to="oyp0:3zTK92L$xrW" resolve="TBooleanType" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="1HMbik_FiMq">
-    <property role="TrG5h" value="typeof_RepositoryExpression" />
-    <node concept="3clFbS" id="1HMbik_FiMr" role="18ibNy">
-      <node concept="1Z5TYs" id="1HMbik_FiWn" role="3cqZAp">
-        <node concept="mw_s8" id="1HMbik_FiWF" role="1ZfhKB">
-          <node concept="2pJPEk" id="1HMbik_FiWB" role="mwGJk">
-            <node concept="2pJPED" id="1HMbik_FiWQ" role="2pJPEn">
-              <ref role="2pJxaS" to="tpee:g7uibYu" resolve="ClassifierType" />
-              <node concept="2pIpSj" id="1HMbik_FiYn" role="2pJxcM">
-                <ref role="2pIpSl" to="tpee:g7uigIF" resolve="classifier" />
-                <node concept="36bGnv" id="1HMbik_FiZW" role="2pJxcZ">
-                  <ref role="36bGnp" to="lui2:~SRepository" resolve="SRepository" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="1HMbik_FiWq" role="1ZfhK$">
-          <node concept="1Z2H0r" id="1HMbik_FiM$" role="mwGJk">
-            <node concept="1YBJjd" id="1HMbik_FiMO" role="1Z2MuG">
-              <ref role="1YBMHb" node="1HMbik_FiMt" resolve="n" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="1HMbik_FiMt" role="1YuTPh">
-      <property role="TrG5h" value="n" />
-      <ref role="1YaFvo" to="oyp0:1HMbik_FiMj" resolve="RepositoryExpression" />
     </node>
   </node>
   <node concept="1YbPZF" id="4wrAhqcD13b">

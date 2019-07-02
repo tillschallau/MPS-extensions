@@ -18596,6 +18596,69 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFb_" id="5YSMZfoPRmT" role="jymVt">
+              <property role="TrG5h" value="addNewChild" />
+              <node concept="37vLTG" id="5YSMZfoPRmU" role="3clF46">
+                <property role="TrG5h" value="element" />
+                <node concept="3uibUv" id="5YSMZfoPRna" role="1tU5fm">
+                  <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                </node>
+              </node>
+              <node concept="37vLTG" id="5YSMZfoPRmW" role="3clF46">
+                <property role="TrG5h" value="index" />
+                <node concept="10Oyi0" id="5YSMZfoPRmX" role="1tU5fm" />
+              </node>
+              <node concept="37vLTG" id="5YSMZfoPRmY" role="3clF46">
+                <property role="TrG5h" value="template" />
+                <node concept="3uibUv" id="5YSMZfoPRmZ" role="1tU5fm">
+                  <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                </node>
+                <node concept="2AHcQZ" id="5YSMZfoPRn0" role="2AJF6D">
+                  <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+                </node>
+              </node>
+              <node concept="3cqZAl" id="5YSMZfoPRn1" role="3clF45" />
+              <node concept="3Tm1VV" id="5YSMZfoPRn2" role="1B3o_S" />
+              <node concept="2AHcQZ" id="5YSMZfoPRn7" role="2AJF6D">
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+              </node>
+              <node concept="3clFbS" id="5YSMZfoPRnb" role="3clF47">
+                <node concept="3cpWs8" id="5YSMZfoPYiP" role="3cqZAp">
+                  <node concept="3cpWsn" id="5YSMZfoPYiQ" role="3cpWs9">
+                    <property role="TrG5h" value="concept" />
+                    <node concept="3bZ5Sz" id="5YSMZfoPYOw" role="1tU5fm" />
+                    <node concept="2YIFZM" id="5YSMZfoPYiR" role="33vP2m">
+                      <ref role="37wK5l" node="3ECE8iPIttW" resolve="unwrap" />
+                      <ref role="1Pybhc" node="5gTrVpGjuL2" resolve="SConceptAdapter" />
+                      <node concept="2OqwBi" id="5YSMZfoPYiS" role="37wK5m">
+                        <node concept="37vLTw" id="5YSMZfoPYiT" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5YSMZfoPRmY" resolve="template" />
+                        </node>
+                        <node concept="liA8E" id="5YSMZfoPYiU" role="2OqNvi">
+                          <ref role="37wK5l" to="mjcn:5gTrVpGjdrb" resolve="getConcept" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="5YSMZfoPTVX" role="3cqZAp">
+                  <node concept="2OqwBi" id="5YSMZfoPUhI" role="3clFbG">
+                    <node concept="37vLTw" id="5YSMZfoPTVV" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5YSMZfoPRmU" resolve="element" />
+                    </node>
+                    <node concept="liA8E" id="5YSMZfoPUER" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModel.addRootNode(org.jetbrains.mps.openapi.model.SNode)" resolve="addRootNode" />
+                      <node concept="2OqwBi" id="5YSMZfoPZnJ" role="37wK5m">
+                        <node concept="37vLTw" id="5YSMZfoPYiV" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5YSMZfoPYiQ" resolve="concept" />
+                        </node>
+                        <node concept="LFhST" id="5YSMZfoPZBA" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3uibUv" id="qmkA5fRBtQ" role="2Ghqu4">
               <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
             </node>
