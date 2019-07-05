@@ -15,14 +15,28 @@
     <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
+    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
+      <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
+        <child id="1207145201301" name="reference" index="ftvYc" />
+      </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
+      <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <child id="1204991552650" name="modifier" index="2f5YQi" />
+        <child id="1207145245948" name="contents" index="ftER_" />
+      </concept>
+      <concept id="1203088046679" name="jetbrains.mps.lang.plugin.structure.ActionInstance" flags="ng" index="tCFHf">
+        <reference id="1203088061055" name="action" index="tCJdB" />
+      </concept>
+      <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
+        <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
+      </concept>
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
       <concept id="481983775135178840" name="jetbrains.mps.lang.plugin.standalone.structure.ApplicationPluginDeclaration" flags="ng" index="2uRRBC" />
@@ -59,6 +73,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -68,6 +83,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -225,6 +241,21 @@
                           <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                         </node>
                       </node>
+                      <node concept="3clFb_" id="2Fjj$OIp_Cw" role="jymVt">
+                        <property role="TrG5h" value="getId" />
+                        <node concept="17QB3L" id="2Fjj$OIp_Cx" role="3clF45" />
+                        <node concept="3Tm1VV" id="2Fjj$OIp_Cy" role="1B3o_S" />
+                        <node concept="3clFbS" id="2Fjj$OIp_C_" role="3clF47">
+                          <node concept="3clFbF" id="2Fjj$OIpAHM" role="3cqZAp">
+                            <node concept="Xl_RD" id="2Fjj$OIpBim" role="3clFbG">
+                              <property role="Xl_RC" value="root" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2AHcQZ" id="2Fjj$OIp_CA" role="2AJF6D">
+                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -253,6 +284,7 @@
             <node concept="2ShNRf" id="5YSMZfoy0CE" role="33vP2m">
               <node concept="1pGfFk" id="5YSMZfoy0CF" role="2ShVmc">
                 <ref role="37wK5l" to="ktej:5YSMZfoxUqR" resolve="SyncContext" />
+                <node concept="10Nm6u" id="1Cp2BOA_gNu" role="37wK5m" />
                 <node concept="37vLTw" id="5YSMZfoy0MX" role="37wK5m">
                   <ref role="3cqZAo" node="5YSMZfoy0Mu" resolve="rootCorrespondence" />
                 </node>
@@ -403,9 +435,31 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1Cp2BOA_gRF" role="3cqZAp" />
+        <node concept="3clFbF" id="1Cp2BOA_hxT" role="3cqZAp">
+          <node concept="2OqwBi" id="1Cp2BOA_hP8" role="3clFbG">
+            <node concept="37vLTw" id="1Cp2BOA_hxR" role="2Oq$k0">
+              <ref role="3cqZAo" node="5YSMZfoy0CD" resolve="context" />
+            </node>
+            <node concept="liA8E" id="1Cp2BOA_ibL" role="2OqNvi">
+              <ref role="37wK5l" to="ktej:1Cp2BOA$$vy" resolve="executeReferenceResolution" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
   <node concept="2DaZZR" id="5YSMZfoynFK" />
+  <node concept="tC5Ba" id="2Fjj$OIqQX_">
+    <property role="TrG5h" value="SyncGroup" />
+    <node concept="ftmFs" id="2Fjj$OIqQXB" role="ftER_">
+      <node concept="tCFHf" id="2Fjj$OIqQXE" role="ftvYc">
+        <ref role="tCJdB" node="5YSMZfoxUyg" resolve="RunSynchronizers" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="2Fjj$OIqQXG" role="2f5YQi">
+      <ref role="tU$_T" to="tprs:hyf4LYI" resolve="Tools" />
+    </node>
+  </node>
 </model>
 

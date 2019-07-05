@@ -10,6 +10,7 @@
     <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="ktej" ref="r:714ff533-7bce-419a-ac31-d6604ab96b12(de.q60.mps.shadowmodels.sync.runtime)" />
     <import index="wvz" ref="r:8a9fd39f-2f42-44a4-be8c-55d0f0c59894(de.q60.mps.shadowmodels.sync.structure)" implicit="true" />
   </imports>
   <registry>
@@ -47,6 +48,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -564,6 +568,31 @@
     <node concept="1YaCAy" id="5YSMZfoW044" role="1YuTPh">
       <property role="TrG5h" value="n" />
       <ref role="1YaFvo" to="wvz:5YSMZfofGwB" resolve="MappingCall" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="66Rf953b1Cg">
+    <property role="TrG5h" value="typeof_FindCorrespondance" />
+    <node concept="3clFbS" id="66Rf953b1Ch" role="18ibNy">
+      <node concept="1Z5TYs" id="66Rf953b1JG" role="3cqZAp">
+        <node concept="mw_s8" id="66Rf953b1K0" role="1ZfhKB">
+          <node concept="2c44tf" id="66Rf953b1JW" role="mwGJk">
+            <node concept="3uibUv" id="66Rf953b1N1" role="2c44tc">
+              <ref role="3uigEE" to="ktej:66Rf953b1LZ" resolve="ICorrespondence" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="66Rf953b1JJ" role="1ZfhK$">
+          <node concept="1Z2H0r" id="66Rf953b1Cq" role="mwGJk">
+            <node concept="1YBJjd" id="66Rf953b1CE" role="1Z2MuG">
+              <ref role="1YBMHb" node="66Rf953b1Cj" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="66Rf953b1Cj" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="wvz:66Rf953b1C9" resolve="FindCorrespondence" />
     </node>
   </node>
 </model>

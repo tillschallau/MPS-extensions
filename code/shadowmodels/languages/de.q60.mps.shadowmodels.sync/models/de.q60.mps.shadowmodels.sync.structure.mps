@@ -81,6 +81,9 @@
     <node concept="PrWs8" id="5YSMZfo7TYE" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
+    <node concept="PrWs8" id="2Fjj$OIpiaM" role="PzmwI">
+      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
   </node>
   <node concept="PlHQZ" id="5YSMZfo7RRX">
     <property role="EcuMT" value="6897487077481348605" />
@@ -308,6 +311,54 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5YSMZfoWszY">
+    <property role="EcuMT" value="6897487077495130366" />
+    <property role="TrG5h" value="SyncReference" />
+    <property role="34LRSv" value="syncReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="5YSMZfoWszZ">
+    <property role="EcuMT" value="6897487077495130367" />
+    <property role="TrG5h" value="ReferenceResolutionPhase" />
+    <property role="34LRSv" value="referenceResolutionPhase" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="5YSMZfoWs$0" role="1TKVEi">
+      <property role="IQ2ns" value="6897487077495130368" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+    </node>
+    <node concept="PrWs8" id="5YSMZfoWs$1" role="PzmwI">
+      <ref role="PrY4T" to="tpee:htgVS9_" resolve="IStatementListContainer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="66Rf953b1C9">
+    <property role="EcuMT" value="7041163137011948041" />
+    <property role="TrG5h" value="FindCorrespondence" />
+    <property role="34LRSv" value="findCorrespondence" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="66Rf953b1Ns" role="1TKVEi">
+      <property role="IQ2ns" value="7041163137011948764" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameterValues" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="66Rf953b1Nq" role="1TKVEi">
+      <property role="IQ2ns" value="7041163137011948762" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="mapping" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5YSMZfo7RRV" resolve="Mapping" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="66Rf953b1Nv">
+    <property role="EcuMT" value="7041163137011948767" />
+    <property role="TrG5h" value="FindCorrespondence_wildcard" />
+    <property role="34LRSv" value="*" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>
 

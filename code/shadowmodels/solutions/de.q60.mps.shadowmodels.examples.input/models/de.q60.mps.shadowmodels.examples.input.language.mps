@@ -53,8 +53,9 @@
       <node concept="27FKtB" id="5YSMZfo627N" role="27FKt3">
         <ref role="27FKtA" node="5YSMZfo5WKJ" resolve="INamedConcept" />
       </node>
-      <node concept="27F2Bl" id="5YSMZfoWlFs" role="27ETe1">
+      <node concept="27F2Bl" id="1ZwCy2Sdkvr" role="27ETe1">
         <property role="TrG5h" value="properties" />
+        <ref role="27FUQS" node="5YSMZfo5WLF" resolve="Property" />
       </node>
     </node>
     <node concept="27EY1P" id="5YSMZfo5WLF" role="27EY2t">
