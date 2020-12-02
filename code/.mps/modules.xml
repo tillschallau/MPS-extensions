@@ -162,4 +162,9 @@
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.mouselistener.runtime/de.itemis.mps.mouselistener.runtime.msd" folder="widgets" />
     </projectModules>
   </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/code.iml" filepath="$PROJECT_DIR$/.idea/code.iml" />
+    </modules>
+  </component>
 </project>
