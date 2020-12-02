@@ -4,7 +4,7 @@ buildscript {
         maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
     }
     dependencies {
-        classpath('de.itemis.mps:mps-gradle-plugin:1.2.168.+')
+        classpath('de.itemis.mps:mps-gradle-plugin:1.4.+')
     }
 }
 
@@ -21,11 +21,6 @@ import de.itemis.mps.gradle.*
 
 import java.time.LocalDateTime
 
-
-wrapper {
-    gradleVersion '5.2'
-    distributionType 'all'
-}
 
 // detect if we are in a CI build
 if (project.hasProperty("forceCI")) {
