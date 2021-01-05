@@ -2,11 +2,20 @@
 
 **Language Namespace :** `de.itemis.mps.editor.diagram`
 
-If you have downloaded the recent mbeddr master branch, you will have noticed that, for example, component wiring and state machines can now be edited graphically. The screenshots below show examples of these two notations.
+With the diagrams language it is possible to graphically edit your metamodel. The screenshot below shows a graphical diagram model of an example language. The diagram to the right is graphical representation of the textual model on the left. This example is taken from the ``de.itemis.mps.editor.diagram.demoentities.sandbox`` solution.  
 
+![](/diagrams/diagrams-comparison.png)
 
+## Download
+Download the nightly build of the plugins from the [release page](https://github.com/JetBrains/MPS-extensions/releases).
 
+## Examples
+The example languages ``de.itemis.mps.editor.diagram.demolang``, ``de.itemis.mps.editor.diagram.demo.*`` ([link](https://github.com/JetBrains/MPS-extensions/tree/master/code/diagram/languages)) give a good overview of the diagram language's features.
 
+## Installation
+Extract the downloaded *de.itemis.mps.extensions* package and copy its content into your local MPS installation directory into the *plugins* folder (e.g. ``\JetBrains\MPS 2020.2\plugins``). Check the installation by opening MPS, navigate to ``Settings -> Plugins -> Other Tools`` and find *de.itemis.mps.editor.diagram* in there.
+
+## Old Text
 
 
 
