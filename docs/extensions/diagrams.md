@@ -24,12 +24,12 @@ This screenshot shows a few interesting features: you can embed diagrams anywher
 
 This one illustrates that the approach scales to reasonable sizes, shows that zooming is supported and also demonstrates the auto layouting capability. The graphical notation also integrates with things such as tooltips. 
 
-##General Information
+## General Information
 The definition of a graphical editor is based on the same "cell" abstraction used in other MPS editors: the language for defining editors contains additional cells that are then rendered as a diagram (diagram, diagram.box, diagram.edge). Similar to tables, these abstractions for defining graphical editors rely on queries to make sure that the structure of the graphical editor does not have to directly correspond to the structure of the AST (for example, in terms of ownership). The language also supports hierarchical diagrams, for example, in state machines.
 
 To see example code, check out InstanceConfiguration and Statemachine.
 
-##Diagram Creation Example - Step by Step
+## Diagram Creation Example - Step by Step
 In the following section a step by step guide for a simple graph language is presented. You can find the source code for the example in this [repository](https://github.com/tillschallau/mps-diagrams). If you are familiar with the diagram extension and search for a more advanced example, head over to [DSL Foundry](http://dslfoundry.com/using-the-diagram-editor-and-querylist-lets-build-a-graphical-structure-editor-for-mps/) where the MPS concept modelling is enhanced to be edited with the diagram editor. 
 
 ### Concepts
